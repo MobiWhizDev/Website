@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us | Mobiwhiz</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+
+<!-------- My Stylsheet ------------>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+
+
+
+
+<script type="text/javascript">
+document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('container-outer').style.visibility="hidden";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('interactive');
+         document.getElementById('load').style.visibility="hidden";
+         document.getElementById('container-outer').style.visibility="visible";
+      },1000);
+  }
+}
+</script>
+<style type="text/css">
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url(images/loader.gif) center no-repeat white}
+
+.col-md-4 img {
+	width: 360px;
+    height: 320px;
+    margin-bottom: 14px;
+}
+</style>
+
+
+    
+</head>
+
+<body class="contact">
+
+<div id="load"></div>
+
+<div id="container-outer">
+<!-------------------------- Home Slider Start -------------------------->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <!--<ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>-->
+    
+    
+    <header>
+    	
+    <!---------- Container start ---------------->
+    <div class="container">
+    
+    	<!---------- Logo div ------------------->
+        <div class="col-md-3 logo">
+            <a href="index.html"> <img src="images/logo.png"></a>
+        </div>
+        <!---------- Logo div end --------------->
+        
+        
+        <!----------- Navigation start ---------->
+        <div class="col-md-9">
+        	<nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!--<a class="navbar-brand" href="#">Brand</a>-->
+                </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  
+                  <ul class="nav navbar-nav navbar-nav2 navbar-right">
+                    <li class="bold"><a href="mailto:info@mobiwhiz.com"><img src="images/msg.png"> info@mobiwhiz.com</a></li>
+                    <li class="bold"><a href="#"><img src="images/call.png"> +65 0000 1111</a></li>
+                  </ul>
+                  
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="services.html">OUR SERVICES</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="approach.html">OUR APPROACH</a></li>
+                    <li><a href="industries.html">INDUSTRIES</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+					<li class="active"><button class="button-quote"><a href="contact.html">GET FREE QUOTE</a></button></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <!----------- Navigation End --------------->
+    </div>
+    <!--------- container  end --------------------->
+    </header>
+    
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/bg-contact.jpg" class="img-slider" alt="...">
+          <div class="carousel-caption">
+              <!-------- Capiton 1 Start -------->
+              <h2> Talk to Us <br>About Your Project</h2>
+              <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h4>
+              <br> <br>
+              <button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
+              
+              	
+              
+              <!------- Caption 1 End -------->
+          </div>
+        </div>
+        
+      </div>
+    
+      
+    </div>
+<!--------------------- Home slider end -------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------- secction contact start ----------->
+<section class="section_contact">
+		<h3> LET'S TALK </h3>
+		<p class="subtitle">Need to discuss your project, fill the form below and our strategist will call you in few moments</p>
+		<br><br><br>
+		<div class="container">
+		
+			<div class="col-lg-2">
+			</div>
+			
+			<div class="col-lg-4">
+				
+				<form>
+				  <div class="form-group">
+					<label for="exampleInputEmail1">NAME</label>
+					<input type="text" class="form-control" id="exampleInputname" placeholder="enter your name" required>
+				  </div>
+				  <div class="form-group">
+					<label for="exampleInputPassword1">EMAIL</label>
+					<input type="email" class="form-control" id="exampleInputemail" placeholder="enter your email" required>
+				  </div>
+				  <div class="form-group">
+					<label for="exampleInputPassword1">PHONE</label>
+					<input type="number" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>
+				  </div>
+				  
+			
+				
+			</div>
+			
+			<div class="col-lg-4">
+				
+				
+				  <div class="form-group">
+					<label for="exampleInputEmail1">QUERY TYPE</label>
+					<select class="form-control" id="exampleInputquery" required>
+					  <option>Select your query</option>
+					  <option>IOS App Development</option>
+					  <option>Anroid App Development</option>
+					  <option>Mobile Game Development</option>
+					  <option>Web Development</option>
+					</select>
+				  </div>
+				  
+				  <div class="form-group">
+				  <label for="exampleInputEmail1">Enter brief description of your project</label>
+				  <textarea class="form-control" id="Description" placeholder="enter your project brief" rows="3" required></textarea>
+				  </div>
+				  
+				  <button type="submit" class="btn btn-default">SUBMIT</button>
+				</form>
+
+			</div>
+			
+			<div class="col-lg-2">
+			</div>
+		
+		</div>
+		<!----------- container end --------------->
+
+</section>
+<!--------------------- section contact end -------------->
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------- Section Services Start ------------->
+<section class="section_services map">
+	
+    <div class="container">
+    	
+        <div class="contact">
+        	<h3> CONTACT DETAILS </h3>
+            
+            <div class="col-md-6">
+            	<br><br>
+            	<img src="images/address.png">
+                <br>
+                <h5>ADDRESS</h5>
+                8317 Jones Branch Drive McLean,<br>
+                Virginia 65842 USA<br>
+                <a href="mailto:info@mobiwhiz.com">info@mobiwhiz.com</a>
+            </div>
+            
+            <div class="col-md-6">
+            	<br><br>
+            	<img src="images/call3.png">
+                <br>
+                <H5>CALL US AT </H5>
+                Tel: +1 801 993 1111
+            </div>
+
+        
+        </div>
+    </div>
+	
+</section>
+<!--------------------- Section Services End ------------->
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------- section footer start -------------->
+<section class="section_footer">
+	<div class="container">
+    	<div class="col-sm-3">
+        	<h4> CONTACT US </h4>
+            <img src="images/red-line.png">
+            <ul>
+            	<li><img src="images/icon-address.png">&nbsp;&nbsp;668 Stony Hill Road, </li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suite 11, </li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yardley, PA 19067 </li>
+                <li><img src="images/icon-call.png">&nbsp;&nbsp;<span class="color-red">+1 801 933 1111 </span></li>
+                <li><img src="images/icon-msg.png">&nbsp;&nbsp;<a href="mailto:info@mobiwhiz.com"><span class="color-red">info@mobiwhiz.com </span></a></li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-3">
+        	<h4> MOBIWHIZ </h4>
+            <img src="images/red-line.png">
+            <ul>
+            	<li><a href="">Our Services </a></li>
+                <li><a href="">Our Approach </a></li>
+                <li><a href="">Portfolio </a></li>
+                <li><a href="">About Us </a> </li>
+            </ul>
+                
+        </div>
+        
+        <div class="col-sm-2">
+        	<h4>&nbsp;  </h4>
+            <br>
+            <ul>
+            	<li><a href="">Industries </a></li>
+                <li><a href="">Contact Us </a></li>
+                <li><a href="">Terms & Conditions </a></li>
+                <li><a href="">Privacy Policy </a></li>
+        	</ul>
+        </div>
+        
+        <div class="col-sm-4">
+        	<h4> GET CONNECTED WITH US </h4>
+            <img src="images/red-line.png">
+            <br><br><br>
+            <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Facebook"><a href=""> <img src="images/facebook.png"> </a> </button>
+            
+            <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Twitter"><a href=""> <img src="images/twitter.png"> </a> </button>
+            
+            <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Google+"><a href=""> <img src="images/google.png"> </a> </button>
+            
+            <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><a href=""> <img src="images/pinterest.png"> </a> </button>
+            
+            
+            
+            
+        </div>
+        
+        <div class="col-lg-12 footer-text">
+        	© 2015 – MobiWhiz, A Humming Bird International LLC Company.
+        </div>
+    
+	</div>
+    <!---------- container end ---------------->
+</section>
+<!--------------------- section footer end ---------------->
+
+
+</div>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+
+
+
+</body>
+</html>

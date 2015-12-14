@@ -1,0 +1,150 @@
+body{	margin:0;	padding:0;}
+/*@font-face {    font-family: lato;    src: url(../fonts/Lato-Hairline.ttf);}
+@font-face {    font-family: lato-bold;    src: url(../fonts/Lato-Bold.ttf);}
+@font-face {    font-family: lato-semibold;    src: url(../fonts/Lato-Semibold.ttf);}
+@font-face {    font-family: lato-medium;    src: url(../fonts/Lato-Medium.ttf);}
+@font-face {    font-family: lato-regular;    src: url(../fonts/Lato-Regular.ttf);}
+@font-face {    font-family: lato-thin;    src: url(../fonts/Lato-Thin.ttf);}
+@font-face {    font-family: lato-italic;    src: url(../fonts/Lato-Italic.ttf);}*/
+h1,h2,h3,h4,h5,h6{	color:white;	font-family:calibri;}
+header {position: absolute;z-index: 666;width: 100%;}img.img-logo {width: 100%;}.col-md-3.logo img {   position:inherit;}.col-md-3.logo {    padding-top: 30px;}
+nav.navbar.navbar-default {    background: none;    border: none; z-index:9999;}
+.navbar-default .navbar-nav2>li>a:focus, .navbar-default .navbar-nav2>li>a:hover{	border:none;}
+.button-quote {    border: solid 2px white;    border-radius: 30px;   background: rgba(255, 255, 255, 0.11); padding:0 20px 0 20px;    transition: all .4s;    font-family: lato-regular;    font-weight: 100;    height: 42px;    color: white;	margin-left: 10px;}
+.button-quote a{color:white;}
+.button-quote:hover{	border:solid 2px #db3d42;}
+.button {    padding: 22px 40px 22px 40px;    
+background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#df3e40+0,ac3761+100 */
+background: #df3e40; /* Old browsers */
+background: -moz-linear-gradient(top,  #df3e40 0%, #ac3761 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #df3e40 0%,#ac3761 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #df3e40 0%,#ac3761 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df3e40', endColorstr='#ac3761',GradientType=0 ); /* IE6-9 */
+border-radius: 100px;    color: white;	border:none;    font-weight: bold;    font-size: 18px;    font-family: lato-semibold;	transition:all .1s;}
+img.icon-button {    margin-left: 6px;} img.img-slider2{height:auto !important;}
+.carousel-caption { width:100%; top: 150px;}.carousel-caption h2 {    font-size: 64px;    font-weight: 500;}.carousel-caption h4 {    font-weight: 100;	font-size:20px;}.carousel-inner .img-slider {    width: 100%;}.image-wrap {    height: auto;    overflow: hidden;    max-width: 800px; margin:auto;           -webkit-transition: max-width .5s ease-out;  /* Saf3.2+, Chrome */    -moz-transition: max-width .5s ease-out;  /* FF4+ */    -ms-transition: max-width .5s ease-out;  /* IE10? */    -o-transition: max-width .5s ease-out;  /* Opera 10.5+ */    transition: max-width .5s ease-out;	transition:all .99s;	margin-top: 500px;}.image-wrap img {  width: 100%;  -webkit-transition: margin-top .5s ease-out;  /* Saf3.2+, Chrome */  -moz-transition: margin-top .5s ease-out;  /* FF4+ */  -ms-transition: margin-top .5s ease-out;  /* IE10? */  -o-transition: margin-top .5s ease-out;  /* Opera 10.5+ */  transition: margin-top .5s ease-out;}span.glyphicon.glyphicon-chevron-left{	background:url(../images/arrow-left.png) no-repeat;	height:50px;}span.glyphicon.glyphicon-chevron-right{	background:url(../images/arrow-right.png) no-repeat;	height:50px;}
+/*------------------ Services -----------------------*/
+section.section_services{	text-align:center;	padding-top:50px;}section.section_services h3 {    color: #37424f;	font-size: 40px;    font-weight: 400;}section.section_services p.subtitle {    color: #5F5C5C;    font-size: 18px;    width: 60%;    margin: auto;    font-weight: 100;    font-family: calibri;}.bg-services{	background:#edf3f6;	width:100%;	height:auto;}.col-md-3 h5 {    color: #4A4A4A;    text-transform: uppercase;    font-size: 18px;	font-weight:bold;    font-family: calibri;}.col-md-3 img{	position:absolute;	-webkit-transition: opacity .1s ease-in-out;	-moz-transition: opacity .1s ease-in-out;	-o-transition: opacity .1s ease-in-out;	transition: opacity .1s ease-in-out;}.col-md-3:hover img.top {  opacity:0;}.s{	transition:all .4s;	height:auto;	padding-top: 50px;    padding-bottom: 50px;}.s:hover {    background: white;}.s p {    color: #565656;    font-family: calibri;    font-weight: 100;    font-size: 18px;}.icon-services {    width: 70%;    margin: auto;    text-align: center;    height: 100px;    padding-right: 40%;}
+
+
+
+
+/*------------------------------------ servey Start ----------------------------*/
+section.section_servey{	width:100%;	height:auto;	background:#1c54a9;}section.section_servey h2 {    font-family: lato-regular;    font-size: 50px;	margin:0; text-shadow:none;}section.section_servey p.bold { text-shadow:none; font-size: 20px;    font-family: calibri;}section.section_servey p {    font-family: lato-regular;    font-size: 14px; width:86%;	color:white; text-shadow:none; font-weight:100;}img.button-app {    width: 30%; }img.mobile2 {    width: 100%;	margin-top:-30px;}.carousel-inner.carousel-inner-servey {    height: auto;}.carousel-caption.carousel-caption-servey {    left: 10%; top:20%;}.col-md-6.servey {    text-align: left;}
+/*-------------------------------------- Approach start ----------------------------*/
+section.section_approach{	width:100%;	height:auto;	padding-top:60px;    padding-bottom: 60px;	background:url(../images/bg-approach.jpg);}.col-lg-6.approach_right {    text-align: right;}.col-lg-6.approach_right h2{	font-family:lato-regular;	font-size:50px;}.col-lg-6.approach_right p {    color: #949494;    font-family: calibri;    font-size: 18px;    font-weight: 100;}.wrap {	margin: 3em;	width: 100%;	height:120px;	transition: all .4s;}.wrap h1 {    font-size: 90px;    display: inline;    color: rgba(177, 177, 177, 0.29);    font-family: lato-regular;}
+
+a.text-deactive{visibility:hidden; line-height: 1;    position: absolute;    padding-left: 78px; text-decoration:none; color:white;     font-family: calibri;    font-size: 18px;    font-weight: 100;}
+
+span.text-active{text-decoration: none;    transition: all .4s;    color: rgba(177, 177, 177, 0.98);    font-size: 40px;    font-family: lato; }
+span.text-active:hover a.text-deactive{visibility:visible; }
+
+
+
+
+ /*----------------------- Section stack start -----------------*/
+section.section_stack{	width:100%;	height:auto;	padding-top:50px;	background:white;	text-align:center;}section.section_stack h3 {    color: #37424f;	font-size: 40px;    font-weight: 400;}section.section_stack p.subtitle {    color: #5F5C5C;    font-size: 18px;    width: 50%;    margin: auto;    font-weight: 100;    font-family: calibri;}
+/*-------------------------- section contact start ------------------*/
+section.section_contact{	width:100%;	height:auto;	padding-top:50px;	padding-bottom:80px;	background:#edf3f6;}section.section_contact h3 {    color: #37424f;	font-size: 40px;    font-weight: 400;	text-align:center;}section.section_contact p.subtitle {    color: #5F5C5C;    font-size: 18px;    width: 50%;    margin: auto;    font-weight: 100;	text-align:center;    font-family: calibri;}.form-group label {    font-size: 14px;    font-family: calibri;    font-weight: bold;    color: #4f5a65;}.form-control {    font-family: lato-italic;}input#exampleInputname {    background: url(../images/icon-name.png) no-repeat left;	background-position-x: 14px;    background-color: white;    padding: 0px 10px 0 42px;    height: 40px;}input#exampleInputemail {    background: url(../images/icon-email.png) no-repeat left;	background-position-x: 14px;    background-color: white;    padding: 0px 10px 0 42px;    height: 40px;}input#exampleInputphone {    background: url(../images/icon-phone.png) no-repeat left;	background-position-x: 14px;    background-color: white;    padding: 0px 10px 0 42px;    height: 40px;}select#exampleInputquery {    background: url(../images/icon-query.png) left no-repeat;	background-position-x: 14px;    background-color: white;    padding: 0px 10px 0 42px;    height: 40px;}textarea#Description {    background: url(../images/icon-description.png) left no-repeat;    background-position: 12px 12px;    background-color: white;    padding: 10px 10px 54px 44px;}button.btn.btn-default {    color: black;    font-family: calibri;    background: url(../images/bg-button.png) center no-repeat;    width: 40%;    color: white;    border-radius: 20px;    height: 45px;    float: right;}
+/*------------------------- section footer start ---------------*/
+section.section_footer{	width:100%;	height:auto;	padding-top:50px;	padding-bottom:80px;	background:url(../images/bg-footer.jpg) center;}section.section_footer .col-sm-3, section.section_footer .col-sm-2, section.section_footer .col-sm-4 {    padding-top: 30px;}.col-sm-3 h4, .col-sm-2 h4 {    font-family: lato-regular;    font-size: 15px;}.col-sm-3 ul, .col-sm-2 ul {    padding: 0;	padding-top:30px;}.col-sm-3 ul li, .col-sm-2 ul li {    color: white;    list-style: none;    font-family: lato-regular;    font-size: 13px;    font-weight: 100;	padding-top:6px;}.col-sm-3 ul li a, .col-sm-2 ul li a{    color: white;    list-style: none;    font-family: lato-regular;    font-size: 13px;    font-weight: 100;	padding-top:6px;}span.color-red {    color: #df3e40;}.col-lg-12.footer-text {    color: #8c8f93;    font-family: lato-regular;    font-size: 12px;    font-weight: 100;    padding-top: 20px;}button.btn.btn-default.button-social {    width: auto;    border: none;    background: none;	float:none;}
+/*------------------------------------------------------------- Services Page -----------------------------------------------*/
+.services section.section_servey {    background: #eef3f7;	padding: 60px 0 60px 0;}.services section.section_servey h2 {    font-family: lato-regular;    font-size: 30px;    text-shadow: none;	color: #37424f;}.services section.section_servey p {    font-family: lato-regular;    font-size: 16px;    color: #677280;    text-shadow: none;    font-weight: 100;}.services .col-lg-4 ul li {    font-family: lato-regular;    font-size: 12px;    text-shadow: none;    color: #4f5a65;    list-style: url(../images/bullet.png);    padding: 6px;}.services .col-lg-4 ul {	padding:0;}button.button-quote-services {    width: 54%;    padding: 14px 0 14px 0;    border: solid 2px;    color: #df3e40;    font-family: lato-regular;    font-size: 16px;    border-radius: 44px;    background: none;	margin:20px 0 0 0;	transition:all .4s;}button.button-quote-services:hover {    background: #df3e40;    color: white;}img.img-mobile {    width: 100%;}section.section_servey.anroid { pa    background: white;}section.section_servey.game {    background: #2c6bcc;}section.section_servey.game h2, section.section_servey.game p, section.section_servey.game ul li {    color: white;	list-style:url(../images/bullet2.png);}section.section_servey ul li.hide-li {    list-style: none;}button.button-quote-services.game {    color: white;}
+
+/*---------------------- approach --------------------*/
+.approach .col-md-6 img {
+	height:100%;
+	width:100%;
+}
+.approach section.section_servey {
+    padding: 0;
+}
+
+.approach .col-md-6, .approach .col-md-12 {
+    margin: 0;
+    padding: 0;
+}
+.col-md-6.bg-red {
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ac3761+0,df3e40+100 */			background:#ac3761;
+    background: -moz-linear-gradient(left, #ac3761 0%, #df3e40 100%);
+    background: -webkit-linear-gradient(left, #ac3761 0%,#df3e40 100%);
+    background: linear-gradient(to right, #ac3761 0%,#df3e40 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3761', endColorstr='#df3e40',GradientType=1 );
+    height: 363px;
+}
+.col-md-6.seagreen {
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0b5a83+0,043047+100 */background:#0b5a83;
+    background: -moz-linear-gradient(left, #0b5a83 0%, #043047 100%);
+    background: -webkit-linear-gradient(left, #0b5a83 0%,#043047 100%);
+    background: linear-gradient(to right, #0b5a83 0%,#043047 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b5a83', endColorstr='#043047',GradientType=1 );
+    height: 376px;
+}
+.approach .col-md-6.bg-white {
+    background: white;
+    height: 363px;
+}
+.approach .col-md-6.bg-purple {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#564c75+0,3e3460+100 */
+background: #564c75; /* Old browsers */
+background: -moz-linear-gradient(left,  #564c75 0%, #3e3460 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #564c75 0%,#3e3460 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #564c75 0%,#3e3460 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#564c75', endColorstr='#3e3460',GradientType=1 ); /* IE6-9 */
+    height: 376px;
+}
+.col-md-6.bg-purple, .col-md-6.seagreen, .col-md-6.bg-red {
+    color: white !important;
+	    font-size: 14px;
+    font-family: lato;
+}
+.col-md-6.bg-white{
+	font-size: 14px;
+    font-family: lato-semibold;
+}
+.col-md-6.bg-white h2 {
+    color: #37424f;
+}
+.col-lg-9 ul, .col-lg-8 ul {
+    list-style: none;
+    padding: 0;
+}
+.col-lg-9 ul li{
+	list-style:url(../images/bullet2.png);
+}
+.col-lg-8 ul li {
+    list-style:url(../images/bullet.png);
+	color:#37424f;
+}
+.col-lg-8 ul li, .col-lg-9 ul li{
+	font-family:lato-bold;
+	margin:10px 0 0 0;
+}
+.approach section.section_contact {
+    float: left;
+}
+
+
+section.section_services.map {
+    background: url(../images/bg-map.jpg);
+	height:500px;
+}
+.contact .contact {
+    padding: 20px 20px 20px 20px;
+    width: 60%;
+    height: 400px;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.23);
+	font-family:lato-semibold;
+	color:rgba(0, 0, 0, 0.66);
+	font-size:16px;
+}
+.contact .contact a {
+    color: #DF3E40;
+}
+.contact .col-md-6 h5 {
+    color: #141719;
+    font-family: lato-bold;
+	font-size:18px;
+}
