@@ -11,9 +11,7 @@
                         <h4> From Startups to Enterprises, our approach is to deliver unbelievable user experiences!.</h4>
                         <br>
                         <br>
-                        <a href="contact.html">
-                            <button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
-                        </a>
+                        <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
                         <!------- Caption 1 End -------->
                     </div>
                 </div>
