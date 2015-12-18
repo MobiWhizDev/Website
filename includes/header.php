@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
     <?php
-        //error_reporting(E_ALL);
-        //ini_set("display_errors", 1); 
-        //preg_replace($patterns, $replacements, $string);
+        
         $metas = array( 
         'index' => array( 
             'header' => 'Leading Mobile App Design and Development Company | MobiWhiz',
