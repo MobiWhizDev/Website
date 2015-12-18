@@ -116,9 +116,9 @@
         else 
         {
             ?>
-            <title>Mobiwiz</title>
-            <meta name="description" content="Mobiwiz description" >
-            <meta name="keywords" content="Mobiwiz keywords" >
+             <title><?php echo $metas['index']['header']; ?></title>
+            <meta name="description" content="<?php echo $metas['index']['description']; ?>" >
+            <meta name="keywords" content="<?php echo $metas['index']['keywords']; ?>" >
         <?php   
         }   
     ?>

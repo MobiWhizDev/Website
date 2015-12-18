@@ -51,7 +51,9 @@
                 </div>
                 
             </form>
-            <div id="dialog_submit" style="display: none;">Your message has been successfully submitted!</div>
+            <div id="dialog_submit" style="display: none;">Thank you for your inquiry. Your details have been forwarded to one of our app wizards who will get in touch with you shortly. 
+Ph: +1-267-933-0030       |Email: info@mobiwhiz.com       
+</div>
           
         </div>
       </div>
