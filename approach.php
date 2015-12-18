@@ -181,32 +181,32 @@
                     <div class="col-md-8 icon-detail">
                     	<div class="desc active" id="desc1">
                             <h3>Business Process Validation</h3>
-                            <p> Vut sagittis a, magna ridiculus scelerisque parturient! Cum duis nunc in dignissim, porta porta enim, proin turpis egestas. Mauris dapibus sed integer placerat ornare do torquent fuga quas pariatur.</p>
+                            <p> We know that you have a unique Idea for your app development, but in the real world it has to be validated for rich user experience and ensuring that you get your required business results. At MobiWhiz we have a set team of dedicated business analyst that will work with you to understand your business Idea and validate the entire process as per industry requirements.</p>
                         </div>
                         
                         <div class="desc" id="desc2">
                             <h3>Technical Documentation</h3>
-                            <p> Vut sagittis a, magna ridiculus scelerisque parturient! Cum duis nunc in dignissim, porta porta enim, proin turpis egestas. Mauris dapibus sed integer placerat ornare do torquent fuga quas pariatur.</p>
+                            <p> Documentation is something we take very serious, as we know that a lot of features requires detail discussions and brainstorming before a final process is adopted and that’s where our project managers ensure that proper technical documentation is done for our production team to understand the business logics and scope requirements before the actual coding starts.</p>
                         </div>    
                         
                         <div class="desc" id="desc3">
                             <h3>Design</h3>
-                            <p> Vut sagittis a, magna ridiculus scelerisque parturient! Cum duis nunc in dignissim, porta porta enim, proin turpis egestas. Mauris dapibus sed integer placerat ornare do torquent fuga quas pariatur.</p>
+                            <p> We call them our team of artists. This is where our absolute creativity is enforced to get great app designs that can bring WOW factor in complete user experience. We dig deep to understand your target audience, their behavior and your business objective to ensure you get the killer app designs for your app.</p>
                         </div>    
                         
                         <div class="desc" id="desc4">
                             <h3>Development</h3>
-                            <p> Vut sagittis a, magna ridiculus scelerisque parturient! Cum duis nunc in dignissim, porta porta enim, proin turpis egestas. Mauris dapibus sed integer placerat ornare do torquent fuga quas pariatur.</p>
+                            <p> From iPhone to iPad, Android devices and wearable, our apps are developed native to platform specific. Our team of certified developers, app architects, and quality assurance professionals are the best in their respective fields and the result is that we have developed apps for almost all major industries</p>
                         </div>    
                         
                         <div class="desc" id="desc5">
                             <h3>AppStore Submission</h3>
-                            <p> Vut sagittis a, magna ridiculus scelerisque parturient! Cum duis nunc in dignissim, porta porta enim, proin turpis egestas. Mauris dapibus sed integer placerat ornare do torquent fuga quas pariatur.</p>
+                            <p> Normally all app development companies just focus on app development, but we know that our job is not finished here. We have a separate team that will ensure that all policy guidelines are met before your app is properly submitted to respective app stores.</p>
                         </div>    
                         
                         <div class="desc" id="desc6">
                             <h3>Future Enhancements & Upgrades</h3>
-                            <p> Vut sagittis a, magna ridiculus scelerisque parturient! Cum duis nunc in dignissim, porta porta enim, proin turpis egestas. Mauris dapibus sed integer placerat ornare do torquent fuga quas pariatur.</p>
+                            <p> Even after the app is submitted, we are here to help you with any major update that you may require due to change in your business priorities, customer feedback or technology upgrade. We will get you all future enhancements and updates at a fractional cost.</p>
                         </div>       
                     </div>
 				</div>
