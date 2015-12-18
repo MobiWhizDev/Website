@@ -374,7 +374,6 @@ div#selector6:hover div#bg-img6, div#selector6:hover div h4  {background-positio
 .modal-content .form-control{height:50px; font-family:lato; font-weight:100; font-style:italic; padding:0 0 0 20px}
 button.btn.btn-default.form-button{background:url(../images/button-submit.png) center no-repeat; border:none; width:90px;}
 textarea#comments {    height: 136px; padding:12px 0 0 20px;}
-span.glyphicon.glyphicon-remove {    float: right; margin-right:-20px;}
 .modal.fade.bs-example-modal-lg.in {    z-index: 9999;}
 /*--- Home slider contact form End ---*/
 
@@ -986,6 +985,7 @@ and (orientation : portrait)
 			height: 100% !important;
 		}
 		.modal-content{text-align:center; float:left; width:100%; padding:30px 20px 30px 20px;}
+		button.btn.btn-default.form-button{float:left;}
 	}
 
 
