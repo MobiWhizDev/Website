@@ -89,15 +89,15 @@
                             <li class="hide-li">&nbsp;</li>
                         </ul>
                     </div>
-                    <a href="contact.php">
-                        <button class="button-quote-services">REQUEST QUOTE NOW</button>
-                    </a>
+                    
+                        <button class="button-quote-services" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                
                     
                     <img src="images/anroid-mobile.png" class="img-responsive">
                     
-                    <a href="contact.php">
-                        <button class="button-quote-services hidden-button">REQUEST QUOTE NOW</button>
-                    </a>
+                   
+                        <button class="button-quote-services hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                   
                 </div>
             </div>
         </section>
@@ -123,15 +123,15 @@
                             <li class="hide-li">&nbsp;</li>
                         </ul>
                     </div>
-                    <a href="contact.php">
-                        <button class="button-quote-services button-white">REQUEST QUOTE NOW</button>
-                    </a>
+                    
+                        <button class="button-quote-services button-white" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                   
                 </div>
                 <div class="col-md-6">
                     <img src="images/game.png" class="img-mobile">
-                    <a href="contact.php">
-                        <button class="button-quote-services button-white hidden-button">REQUEST QUOTE NOW</button>
-                    </a>
+                    
+                        <button class="button-quote-services button-white hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                   
                 </div>
                 
             </div>
