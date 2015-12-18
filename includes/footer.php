@@ -1,5 +1,59 @@
-<!--------------------- section contact end -------------->
-    <!--------------------- section footer start -------------->
+	
+    <!-- Home Slider contact Form -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <h2>LET'S TALK</h2>
+          <p>Need to discuss your project, fill the form below and our strategist will call you in few moments</p>
+          
+          <form action method="post" onSubmit="return formSubmit();">
+                <div class="col-lg-5">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">NAME</label>
+                        <input type="text" name="name" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">EMAIL</label>
+                        <input type="email" name="email" id="email" class="form-control" id="exampleInputemail" placeholder="enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">PHONE</label>
+                        <input type="text" name="phone" id="phone" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">QUERY TYPE</label>
+                        <select id="qrytype" name="query" class="form-control" id="exampleInputquery" required>
+                            <option>Select your query</option>
+                            <option>IOS App Development</option>
+                            <option>Anroid App Development</option>
+                            <option>Mobile Game Development</option>
+                            <option>Web Development</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                	<div class="form-group">
+                        <label for="exampleInputEmail1">Enter brief description of your project</label>
+                        <textarea class="form-control" id="comments" placeholder="enter your project brief" rows="3" required></textarea>
+                    </div>
+                    <div class="full">
+                        <a href="#dialog_submit" id="modaltrigger" style="display:none">Check</a>
+                        <!-- added by JS -->
+                        <button type="submit" class="btn btn-default form-button"></button>
+                    </div>
+                </div>
+                
+            </form>
+            <div id="dialog_submit" style="display: none;">Your message has been successfully submitted!</div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Home Slider contact Form End -->
+    
+    <!--------------------- section footer start -------------->                    
     <section class="section_footer">
         <div class="container">
             <div class="col-sm-3 footer-col">
@@ -39,18 +93,29 @@
                 <br>
                 <br>
                 <br>
+                <a href="https://www.facebook.com/MobiwhizDigital/" target="_blank">
                 <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Facebook">
-                    <a href="https://www.facebook.com/MobiwhizDigital/" target="_blank"> <img src="images/facebook.png"> </a>
+                     <img src="images/facebook.png"> 
                 </button>
+                </a>
+                
+                <a href="https://twitter.com/mobiwhizdigital" target="_blank">
                 <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Twitter">
-                    <a href="https://twitter.com/mobiwhizdigital" target="_blank"> <img src="images/twitter.png"> </a>
+                     <img src="images/twitter.png"> 
                 </button>
+                </a>
+                
+                <a href="https://plus.google.com/106564856546637987874" target="_blank">
                 <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Google+">
-                    <a href="https://plus.google.com/106564856546637987874" target="_blank"> <img src="images/google.png"> </a>
+                     <img src="images/google.png"> 
                 </button>
+                </a>
+                
+                <a href="https://www.pinterest.com/mobiwhiz/" target="_blank">
                 <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Pinterest">
-                    <a href="https://www.pinterest.com/mobiwhiz/" target="_blank"> <img src="images/pinterest.png"> </a>
+                     <img src="images/pinterest.png"> 
                 </button>
+                </a>
             </div>
             <div class="col-lg-12 footer-text">
                 © 2015 – MobiWhiz, A Humming Bird International LLC Company.

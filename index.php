@@ -11,9 +11,10 @@
               </h4>
                     <br>
                     <br>
-                    <a href="contact.php">
-                        <button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
-                    </a>
+                    <button type="button" class="button" data-toggle="modal" data-target=".bs-example-modal-lg">
+                    	GET STARTED <img src="images/icon-button.png" class="icon-button">
+                    </button>
+
                     <div class="image-wrap" style="margin-top: 30px">
                         <img src="images/mobile.png">
                     </div>
@@ -30,9 +31,9 @@
               </h4>
                     <br>
                     <br>
-                    <a href="contact.php">
-                        <button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
-                    </a>
+                    <button type="button" class="button" data-toggle="modal" data-target=".bs-example-modal-lg">
+                    	GET STARTED <img src="images/icon-button.png" class="icon-button">
+                    </button>
                     <!-- Caption 2 End -->
                 </div>
             </div>
@@ -46,8 +47,15 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+        
+         
+        
     </div>
     <!--------------------- Home slider end -------------------->
+    
+   
+    
+
     <!-- Section Services Start -->
     <section class="section_services">
         <div class="container">

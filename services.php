@@ -11,9 +11,8 @@
                         <h4> Providing 360 Degree of Mobile App Development Services <!--that delivers <br> nothing but perfection.--></h4>
                         <br>
                         <br>
-                        <a href="contact.php">
-                            <button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
-                        </a>
+                            <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
+                       
                         <!------- Caption 1 End -------->
                     </div>
                 </div>
@@ -52,15 +51,14 @@
                             <li>DESKTOP APP</li>
                         </ul>
                     </div>
-                    <a href="contact.php">
-                        <button class="button-quote-services">REQUEST QUOTE NOW</button>
-                    </a>
+                        <button class="button-quote-services"  data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                   
                 </div>
                 <div class="col-md-6">
                     <img src="images/ios-mobile.png" class="img-mobile">
-                    <a href="contact.php">
-                        <button class="button-quote-services hidden-button">REQUEST QUOTE NOW</button>
-                    </a>
+                    
+                        <button class="button-quote-services hidden-button"  data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                   
                 </div>
             </div>
         </section>
@@ -126,13 +124,13 @@
                         </ul>
                     </div>
                     <a href="contact.php">
-                        <button class="button-quote-services">REQUEST QUOTE NOW</button>
+                        <button class="button-quote-services button-white">REQUEST QUOTE NOW</button>
                     </a>
                 </div>
                 <div class="col-md-6">
                     <img src="images/game.png" class="img-mobile">
                     <a href="contact.php">
-                        <button class="button-quote-services hidden-button">REQUEST QUOTE NOW</button>
+                        <button class="button-quote-services button-white hidden-button">REQUEST QUOTE NOW</button>
                     </a>
                 </div>
                 

@@ -11,7 +11,7 @@
                         <h4> From Startups to Enterprises, our approach is to deliver unbelievable user experiences!.</h4>
                         <br>
                         <br>
-                        <a href="contact.php">
+                        <a href="contact.html">
                             <button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
                         </a>
                         <!------- Caption 1 End -------->
@@ -56,8 +56,8 @@
                 </div>
             </div>
         </div>
-        <!-- Section Mobile App Strategy  End -->
-        <!-- Section Mobile App Design start -->
+        <!--------------------- Section Mobile App Strategy  End --------------->
+        <!--------------------- Section Mobile App Design start ------------->
         <div class="col-md-12">
             <div class="col-md-6 seagreen">
             <img src="images/approach_design.jpg" class="img-responsive">
@@ -109,8 +109,8 @@
                 </div>
             </div>
         </div>
-        <!-- ------------------- Section Development End ------------- -->
-        <!-- ------------------- Section Mobile App start ----------- -->
+        <!--------------------- Section Development End --------------->
+        <!--------------------- Section Mobile App start ------------->
         <div class="col-md-12">
             <div class="col-md-6 bg-purple">
             <img src="images/approach_marketing.jpg" class="img-responsive">
@@ -136,8 +136,8 @@
                 <img src="images/approach_marketing.jpg" class="img-desktop">
             </div>
         </div>
-        <!-- Mobile App End -->
-		<!-- start --------- -->
+        <!--------------------- Mobile App End --------------->
+		<!--------- start ----------->
         <div class="col-md-12 approach-process">
         	<div class="container">
             	<div class="col-md-4 icon-image">
@@ -150,37 +150,36 @@
                 </div>
                 <!-- col-md-4 end -->
             	<div class="col-md-8 icon-selector">
-                    <div id="approach-icons" >
-                    	<div class="col-md-2 ap approach-icons active" id="selector1" data-approachtype="1">
-                        	<div class="bg-img" id="bg-img1"></div>
-                            <div class="icon-heading"><br><h4>Business Process Validation</h4></div>
-                        </div>
-                        
-                        <div class="col-md-2 approach-icons" id="selector2" data-approachtype="2">
-                        	<div class="bg-img" id="bg-img2"></div>
-                            <div class="icon-heading"><br><h4>Technical Documentation</h4></div>
-                        </div>
-                        
-                        <div class="col-md-2 approach-icons" id="selector3" data-approachtype="3">
-                        	<div class="bg-img" id="bg-img3"></div>
-                            <div class="icon-heading"><br><h4>Design</h4></div>
-                        </div>
-                        
-                        <div class="col-md-2 approach-icons" id="selector4" data-approachtype="4">
-                        	<div class="bg-img" id="bg-img4"></div>
-                            <div class="icon-heading"><br><h4>Development</h4></div>
-                        </div>
-                        
-                        <div class="col-md-2 approach-icons" id="selector5" data-approachtype="5">
-                        	<div class="bg-img" id="bg-img5"></div>
-                            <div class="icon-heading"><br><h4>AppStore Submission</h4></div>
-                        </div>
-                        
-                        <div class="col-md-2 approach-icons" id="selector6" data-approachtype="6">
-                        	<div class="bg-img" id="bg-img6"></div>
-                            <div class="icon-heading"><br><h4>Future Enhancements & Upgrades</h4></div>
-                        </div>
+                	<div class="col-md-2 active" id="selector1" data-approachImg="1">
+                    	<div class="bg-img" id="bg-img1"></div>
+                        <div class="icon-heading"><br><h4>Business Process Validation</h4></div>
                     </div>
+                    
+                    <div class="col-md-2" id="selector2" data-approachImg="2">
+                    	<div class="bg-img" id="bg-img2"></div>
+                        <div class="icon-heading"><br><h4>Technical Documentation</h4></div>
+                    </div>
+                    
+                    <div class="col-md-2" id="selector3" data-approachImg="3">
+                    	<div class="bg-img" id="bg-img3"></div>
+                        <div class="icon-heading"><br><h4>Design</h4></div>
+                    </div>
+                    
+                    <div class="col-md-2" id="selector4" data-approachImg="4">
+                    	<div class="bg-img" id="bg-img4"></div>
+                        <div class="icon-heading"><br><h4>Development</h4></div>
+                    </div>
+                    
+                    <div class="col-md-2" id="selector5" data-approachImg="5">
+                    	<div class="bg-img" id="bg-img5"></div>
+                        <div class="icon-heading"><br><h4>AppStore Submission</h4></div>
+                    </div>
+                    
+                    <div class="col-md-2" id="selector6" data-approachImg="6">
+                    	<div class="bg-img" id="bg-img6"></div>
+                        <div class="icon-heading"><br><h4>Future Enhancements & Upgrades</h4></div>
+                    </div>
+                    
                     <div class="col-md-8 icon-detail">
                     	<div class="desc active" id="desc1">
                             <h3>Business Process Validation</h3>
