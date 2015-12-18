@@ -367,7 +367,7 @@ div#selector6:hover div#bg-img6, div#selector6:hover div h4  {background-positio
 
 /*--- Home slider contact form ---*/
 .modal-open{overflow:inherit;}
-.modal-content{text-align:center; float:left; width:100%; padding:50px 50px 50px 50px;}
+.modal-content{text-align:center; float:left; width:100%; padding:10px 20px 10px 20px;}
 .modal-content h2, .modal-content p{font-family:lato; color:#37424f; font-weight:100;}
 .modal-content p {font-size:13px;}
 .modal-content .form-group label { float: left; font-family:lato; font-size:12px;}

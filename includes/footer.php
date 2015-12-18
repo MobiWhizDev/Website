@@ -3,15 +3,16 @@
 	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-        	<div class="col-md-12 cross">
-            	<a href=""><span class="glyphicon glyphicon-remove"></span></a>
-            </div>
-          <h2>LET'S TALK</h2>
-          <p>Need to discuss your project, fill the form below and our strategist will call you in few moments</p>
+        	<div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>		<h2>LET'S TALK</h2>
+          	<p>Need to discuss your project, fill the form below and our strategist will call you in few moments</p>
+          	</div>
+          
           
           <form action method="post" onSubmit="return formSubmit();">
                 <div class="col-lg-5">
                     <div class="form-group">
+                    	<br><br>
                         <label for="exampleInputEmail1">NAME</label>
                         <input type="text" name="name" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name" required>
                     </div>
@@ -26,6 +27,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="form-group">
+                    	<br><br>
                         <label for="exampleInputEmail1">QUERY TYPE</label>
                         <select id="qrytype" name="query" class="form-control" id="exampleInputquery" required>
                             <option>Select your query</option>
