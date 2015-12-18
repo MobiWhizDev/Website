@@ -11,7 +11,7 @@
               <h2> Passionate<br>App Developers</h2>
               <h4> Design, Development, and Deployment of Extraordinary Apps</h4>
               <br> <br>
-             <a href="contact.html"><button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button></a>
+             <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
               
           </div>
         </div>
