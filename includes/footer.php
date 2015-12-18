@@ -1,0 +1,85 @@
+<!--------------------- section contact end -------------->
+    <!--------------------- section footer start -------------->
+    <section class="section_footer">
+        <div class="container">
+            <div class="col-sm-3 footer-col">
+                <h4> CONTACT US </h4>
+                <img src="images/red-line.png">
+                <ul>
+                    <li><img src="images/icon-address.png">&nbsp;&nbsp;668 Stony Hill Road, </li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suite 11, </li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yardley, PA 19067 </li>
+                    <li><img src="images/icon-call.png">&nbsp;&nbsp;<span class="color-red">(+1)267-933-0030</span></li>
+                    <li><img src="images/icon-msg.png">&nbsp;&nbsp;<a href="mailto:info@mobiwhiz.com"><span class="color-red">info@mobiwhiz.com </span></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 footer-col">
+                <h4> MOBIWHIZ </h4>
+                <img src="images/red-line.png">
+                <ul>
+                    <li><a href="services.php">Our Services </a></li>
+                    <li><a href="approach.php">Our Approach </a></li>
+                    <li><a href="portfolio.php">Portfolio </a></li>
+                    <li><a href="about.php">About Us </a> </li>
+                </ul>
+            </div>
+            <div class="col-sm-2 footer-col footer-col2">
+                <h4>&nbsp;  </h4>
+                <br>
+                <ul>
+                    <li><a href="industries.php">Industries </a></li>
+                    <li><a href="contact.php">Contact Us </a></li>
+                    <li><a href="terms.php">Terms & Conditions </a></li>
+                    <li><a href="privacy.php">Privacy Policy </a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 footer-col footer-col4">
+                <h4> GET CONNECTED WITH US </h4>
+                <img src="images/red-line.png">
+                <br>
+                <br>
+                <br>
+                <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                    <a href="https://www.facebook.com/MobiwhizDigital/" target="_blank"> <img src="images/facebook.png"> </a>
+                </button>
+                <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                    <a href="https://twitter.com/mobiwhizdigital" target="_blank"> <img src="images/twitter.png"> </a>
+                </button>
+                <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Google+">
+                    <a href="https://plus.google.com/106564856546637987874" target="_blank"> <img src="images/google.png"> </a>
+                </button>
+                <button type="button" class="btn btn-default button-social" data-toggle="tooltip" data-placement="bottom" title="Pinterest">
+                    <a href="https://www.pinterest.com/mobiwhiz/" target="_blank"> <img src="images/pinterest.png"> </a>
+                </button>
+            </div>
+            <div class="col-lg-12 footer-text">
+                © 2015 – MobiWhiz, A Humming Bird International LLC Company.
+            </div>
+        </div>
+        <!---------- container end ---------------->
+    </section>
+    <!--------------------- section footer end ---------------->
+    </div>
+    <!------------- container outer end -------------------->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/55f6d2154b5198806a89ca5f/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
