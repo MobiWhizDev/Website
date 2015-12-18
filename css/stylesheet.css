@@ -21,6 +21,9 @@ nav.navbar.navbar-default {    background: none;    border: none; z-index:9999;}
 button.button a {
     color: white;
 }
+button.button:focus {
+  outline: none;
+}
 button.button a:hover {
 	text-decoration:none;
 }
@@ -984,7 +987,7 @@ and (orientation : portrait)
 			background: #899C30;
 			height: 100% !important;
 		}
-		.modal-content{text-align:center; float:left; width:100%; padding:30px 20px 30px 20px;}
+		.modal-content{text-align:center; float:left; width:100%; padding:10px 20px 30px 20px;}
 		button.btn.btn-default.form-button{float:left;}
 	}
 
