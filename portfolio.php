@@ -12,7 +12,7 @@
               <h2> We have worked on some of the <br>leading app ideas!</h2>
               <h4> Here's a peek into our work </h4>
               <br>
-              <a href="contact.html"><button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button></a>
+              <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
               
               	
               
