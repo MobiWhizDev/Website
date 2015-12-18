@@ -3,6 +3,9 @@
 	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
+        	<div class="col-md-12 cross">
+            	<a href=""><span class="glyphicon glyphicon-remove"></span></a>
+            </div>
           <h2>LET'S TALK</h2>
           <p>Need to discuss your project, fill the form below and our strategist will call you in few moments</p>
           
