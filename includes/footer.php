@@ -125,7 +125,7 @@ Ph: +1-267-933-0030       |Email: info@mobiwhiz.com
                 </a>
             </div>
             <div class="col-lg-12 footer-text">
-                © 2015 – MobiWhiz, A Humming Bird International LLC Company.
+               © 2015 – MobiWhiz, A Hummingbird International LLC Company.
             </div>
         </div>
         <!---------- container end ---------------->
