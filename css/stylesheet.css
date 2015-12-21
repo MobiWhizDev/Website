@@ -328,7 +328,8 @@ img.img-apporach{width:100%;}
 .col-md-8.icon-detail h3 {
     font-family: lato;
     color: #6F7B8A;
-    font-size: 22px;
+    font-size: 24px;
+	font-weight:bold;
 }
 .icon-heading {
     position: absolute;
@@ -339,7 +340,11 @@ img.img-apporach{width:100%;}
 .icon-image .active{display:block;}
 .desc{display:none;}
 .desc.active{display:block;}
-
+.desc p {
+    font-family: lato;
+    font-weight: 100;
+    font-size: 15px;
+}
 .bg-img{height:70px ; transition:all .4s;}
 #bg-img1{background:url(../images/icon-process.png) no-repeat 26px 4px; height:58px; }
 #bg-img2{background:url(../images/icon-techinical.png) no-repeat 34px 2px; height:60px; }
@@ -367,6 +372,7 @@ div#selector6:hover div#bg-img6, div#selector6:hover div h4  {background-positio
 	background-position:26px -65px ;	color:red;}	
 .col-md-8.icon-selector .col-md-2.active div#bg-img6, .col-md-8.icon-selector .col-md-2.active div h4{
 	background-position:26px -50px ;	color:red;}					
+	
 /*--- Apporach last section End ---*/
 
 /*--- Home slider contact form ---*/
