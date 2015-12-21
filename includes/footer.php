@@ -9,24 +9,23 @@
           	</div>
           
           
-          <form  id="contactform" action method="post" onSubmit="return formSubmit();">
+          <form  id="contactform" action method="post">
                 <div class="col-lg-5">
                     <div class="form-group">
                     	<br><br>
                         <label for="exampleInputEmail1">NAME</label>
-                        <input type="text" name="firstname" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name">
+                        <input type="text" name="name" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name" required>
                     </div>
                     <div class="form-group">
-                    	<br>
+                    	<br> 
                         <label for="exampleInputPassword1">EMAIL</label>
                         <input type="email" name="email" id="email" class="form-control" id="exampleInputemail" placeholder="enter your email" required>
                     </div>
                     <div class="form-group">
                     	
                         <div class="col-md-4">
-                        <br>
                         <label for="exampleInputPassword1">PHONE</label>         
-                        <br><br>
+                        <br>
                         <input type="tel" name="phone" id="phone" class="phone form-control" id="exampleInputphone" placeholder="enter your phone" readonly>		
                         </div>
                         <div class="col-md-8">
@@ -146,47 +145,13 @@ Ph: +1-267-933-0030       |Email: info@mobiwhiz.com
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/intlTelInput.js"></script>
-    <script>
-      $(".phone").intlTelInput({
-         /*allowExtensions: true,
-         autoFormat: true,
-         autoHideDialCode: false,
-         autoPlaceholder: true,*/
-        // dropdownContainer: $("body"),
-        // excludeCountries: ["us"],
-         /*geoIpLookup: function(callback) {
-           $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-             var countryCode = (resp && resp.country) ? resp.country : "";
-             callback(countryCode);
-           });
-         },
-        initialCountry: "auto",*/
-         //nationalMode: true,
-        // numberType: "MOBILE",
-        // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-        // preferredCountries: ['cn', 'jp'],
-//        utilsScript: "js/utils.js"
-      });
-    </script>
     <script src="js/jquery.validate.min.js"></script>
-    <script>
-	$().ready(function() {
-		// validate signup form on keyup and submit
-		$("#contactform").validate({
-			rules: {
-				firstname: "required",
-				username: {
-					required: true,
-					minlength: 2
-				},	
-			},
-			
-		});
+    <script src="js/intlTelInput.js"></script>
+    <script src="js/script.js"></script>    
 
-	});
-	</script>
+    
+    
+    
     
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">

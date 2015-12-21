@@ -6,7 +6,7 @@
 	</div>
 			
 
-<form action method="post" onSubmit="return formSubmit();">
+<form action method="post" id="contactform2">
 
 	<div class="col-lg-4">
 			  <div class="form-group">

@@ -421,8 +421,22 @@ input#phone-footer2 {
 .col-md-4 label {
 	margin: 0 0 0 -14px;
 }
+button.btn.btn-default.form-button:focus {
+    outline: none;
+    box-shadow: none;
+}
 /*--- footer contact form country dropdown ---*/
-
+label#fullname-error, label#email-error {
+    position: absolute;
+    display: block;
+    color: red;
+    margin: 0 0 0px 220px;
+}
+label#phone2-error, label#comments-error, label#phone-footer2-error{
+	position: absolute;
+    display: block;
+    color: red;
+	}
 
 
 /*---------- iPad in landscape -------------*/

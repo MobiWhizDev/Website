@@ -143,29 +143,7 @@
         ga('create', 'UA-69242843-1', 'auto');
         ga('send', 'pageview');
     </script>
-    <style>
-	#commentForm {
-		width: 500px;
-	}
-	#commentForm label {
-		width: 250px;
-	}
-	#commentForm label.error, #commentForm input.submit {
-		margin-left: 253px;
-	}
-	#signupForm {
-		width: 670px;
-	}
-	#signupForm label.error {
-		margin-left: 10px;
-		width: auto;
-		display: inline;
-	}
-	#newsletter_topics label.error {
-		display: none;
-		margin-left: 103px;
-	}
-	</style>
+
 </head>
 
 <body>
