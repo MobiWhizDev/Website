@@ -9,22 +9,24 @@
           	</div>
           
           
-          <form action method="post" onSubmit="return formSubmit();">
+          <form  id="contactform" action method="post" onSubmit="return formSubmit();">
                 <div class="col-lg-5">
                     <div class="form-group">
                     	<br><br>
                         <label for="exampleInputEmail1">NAME</label>
-                        <input type="text" name="name" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name" required>
+                        <input type="text" name="firstname" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name">
                     </div>
                     <div class="form-group">
+                    	<br>
                         <label for="exampleInputPassword1">EMAIL</label>
                         <input type="email" name="email" id="email" class="form-control" id="exampleInputemail" placeholder="enter your email" required>
                     </div>
                     <div class="form-group">
                     	
                         <div class="col-md-4">
-                        <label for="exampleInputPassword1">PHONE</label>         
                         <br>
+                        <label for="exampleInputPassword1">PHONE</label>         
+                        <br><br>
                         <input type="tel" name="phone" id="phone" class="phone form-control" id="exampleInputphone" placeholder="enter your phone" readonly>		
                         </div>
                         <div class="col-md-8">
@@ -168,7 +170,23 @@ Ph: +1-267-933-0030       |Email: info@mobiwhiz.com
 //        utilsScript: "js/utils.js"
       });
     </script>
-    
+    <script src="js/jquery.validate.min.js"></script>
+    <script>
+	$().ready(function() {
+		// validate signup form on keyup and submit
+		$("#contactform").validate({
+			rules: {
+				firstname: "required",
+				username: {
+					required: true,
+					minlength: 2
+				},	
+			},
+			
+		});
+
+	});
+	</script>
     
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
