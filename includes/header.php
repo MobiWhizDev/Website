@@ -124,6 +124,7 @@
     ?>
     <link rel="icon" type="image/png" href="../images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/intlTelInput.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script>
@@ -142,6 +143,7 @@
         ga('create', 'UA-69242843-1', 'auto');
         ga('send', 'pageview');
     </script>
+    
 </head>
 
 <body>

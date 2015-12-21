@@ -18,8 +18,16 @@
 				<input type="email" name="email" id="email" class="form-control" id="exampleInputemail" placeholder="enter your email" required>
 			  </div>
 			  <div class="form-group">
-				<label for="exampleInputPassword1">PHONE</label>
-				<input type="text" name="phone" id="phone" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>
+				<!--<label for="exampleInputPassword1">PHONE</label>
+				<input type="tel" name="phone" id="phone" class="phone form-control" id="exampleInputphone" placeholder="enter your phone" required>-->
+                		<div class="col-md-4 code">
+                    	<label for="exampleInputPassword1">PHONE</label>         
+                        <input type="tel" name="phone" id="phone-footer" class="phone form-control" id="exampleInputphone" placeholder="enter your phone" readonly>		
+                        </div>
+                        <div class="col-md-8">
+                        <input type="tel" name="phone" id="phone-footer2" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>		
+                        </div>
+                        
 			  </div>
 	</div>
 		
