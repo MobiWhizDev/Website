@@ -81,8 +81,8 @@
                         <img src="images/anroid.png" class="top">
                     </div>
                     <br>
-                    <h5> android App Development  </h5>
-                    <p>When we develop Android Apps, we ensure that all apps are properly handcrafted for rich user experience to ensure maximum feature utility.</p>
+                    <h5> Android App Development  </h5>
+                    <p>When we develop Android Apps, our app developers ensure that all apps are properly handcrafted for rich user experience to ensure maximum feature utility.</p>
                 </div>
                 <div class="col-md-3 s" id="s3">
                     <div class="icon-services">
@@ -91,7 +91,7 @@
                     </div>
                     <br>
                     <h5> Mobile Game Development </h5>
-                    <p>We have invested to bring the best mobile game development team that has rich experience in 2D/3D game development.
+                    <p>We have invested to bring the best mobile game app developers that has rich experience in 2D/3D game development. 
                         <br>
                         <br>
                     </p>
@@ -162,7 +162,7 @@
         <div class="container">
             <div class="col-lg-6 approach_right">
                 <h2><br>Why You <br>Should Work <br>With Us </h2>
-                <p> We focus on your goals and your success by giving you direct access to a team of app designers and certified app developers that work with you on your app Idea during the development process.</p>
+                <p> Our mobile app developers believe in crafting code, not just writing it. This is where all the hard work put in comes to life. We build best-in-class mobile apps that go beyond customer expectations.</p>
             </div>
             <div class="col-lg-6">
                 <div class="wrap">
