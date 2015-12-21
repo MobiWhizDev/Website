@@ -259,12 +259,40 @@
             </div>
             <!--container-fluid-->
         </div>
-        <!---------- Container end ------------------>
+        <!---- Container end ---->
     </section>
-    <!--------------------- section stack end ---------------->
+    <!---- section stack end ---->
+    
     <!-- secction contact start -->
     <section class="section_contact">
         <?php include('includes/contact_form.php'); ?>
-        <!-- container end -->
     </section>
+    <!-- secction contact end -->
+
+    <section class="">
+    	<div class="container">
+        		<h4>Develop App – Industry Outlook</h4>
+                <input type="checkbox" class="read-more-state" id="post-1" />
+                 <p class="read-more-wrap"> With rapid growth in the mobile app industry, the number of downloads for mobile apps developed are expected to surpass 200 billion in 2016 according to industry researchers. The mobile app development is one of the fastest growing area with over 1.4 million app developed during 2014 only and the numbers are rapidly growing. Most of the app companies are working on android app development, iOS (iPhone and iPad) and web apps. <span class="read-more-target">Leading app developers are expanding their skill sets to capture the mobile apps for various industries with understanding the parameters of advertising, revenue generation, ROI and rich user experience. Most of the app companies have also shifted their focus to become a one-stop solution for startups and entrepreneurs by providing complete app development and digital marketing services. Top mobile app developers are also working on new up-coming technologies to capture the new market of hardware based apps, wearable’s, and other enterprise enabled apps.</span></p>                  
+                 <label for="post-1" class="read-more-trigger"></label>
+                 
+                <h4>MobiWhiz – Top App Development Company</h4>                
+                <input type="checkbox" class="read-more-state" id="post-2" />
+                 <p class="read-more-wrap">MobiWhiz.com was established with a vision to work on developing new ideas in the app industry and work as development partners for startups. Our app company aims to focus on the frontiers of app development <span class="read-more-target">for both Android apps and iOS app for both iPhone and iPad development and hence has enabled a team of designers with development wizards and app strategist gurus that work closely to create beautiful apps that brings rich user experience and are technology advanced in the market.</span></p>                  
+                 <label for="post-2" class="read-more-trigger"></label>
+                
+                <h4>App Developer – Android App and iOS App Development</h4>
+                <p>
+                As leading app developers, our services are geared towards app design and development of android apps, iOS (iPhone and iPad) app development and web apps. Our app developers have extensive experience in their respective fields and are industry certified. The app design team has some of the most prominent names with us that are known for creating remarkable app experience for app users. MobiWhiz has a separate team of app strategist that work with the design and development team to ensure that the business model of the customers is kept at the forefront of the app development.</p>
+                 <p>
+                Our app developers are qualified in the field of Objective C, Java, Angular JS, and hybrid app development platforms, which enables them to develop both native and hybrid apps for all industries.
+                Our development process that our app developers follow is customized to deliver top-notch app according to customer requirements and result in generating maximum revenues. </p>
+                
+                 
+                  
+
+        </div>
+    </section>
+
+    <!--
     <?php include_once('includes/footer.php'); ?>
