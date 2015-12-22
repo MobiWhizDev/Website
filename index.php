@@ -7,8 +7,7 @@
                 <div class="carousel-caption">
                     <!-- Capiton 1 Start -->
                     <h2> We Work with you for Success </h2>
-                    <h4> Creating powerful mobile apps for startups and enterprises to bring remarkable experiences
-              </h4>
+                    <h4> Creating powerful mobile apps for startups and enterprises to bring remarkable experiences</h4>
                     <br>
                     <br>
                     <button type="button" class="button" data-toggle="modal" data-target=".bs-example-modal-lg">
@@ -54,10 +53,21 @@
     <!--------------------- Home slider end -------------------->
     
    
-    
 
     <!-- Section Services Start -->
-    <section class="section_services">
+    <section class="section_services">    
+    	
+            <div class="sideMenu">
+            	<img src="images/icon-call2.png" class="icon-sidemenu">
+                <h6>(+1)267-933-0030</h6>
+            </div>
+        <a href="" data-toggle="modal" data-target=".bs-example-modal-lg">    
+            <div class="sideMenu sideMenu2">
+            	<img src="images/icon-chat.png" class="icon-sidemenu">
+                <h6>Get a Quote</h6>
+            </div>
+        </a>
+        
         <div class="container">
             <h3> OUR SERVICES </h3>
             <p class="subtitle"> We are a mobile app development agency with tons of experience in creating intuitive app design with rock solid development that helps create new brands for startups and new products for enterprises.</p>

@@ -106,3 +106,22 @@ $().ready(function() {
 
 
 });
+
+
+
+
+
+
+
+
+$(window).bind('scroll', function(){
+    if($(this).scrollTop() > 500) {
+        $(".sideMenu").show();
+    }
+	if($(this).scrollTop() < 500) {
+        $(".sideMenu").hide();
+    }
+});
+$(document).ready(function(){        
+    $(".sideMenu").hide();
+});

@@ -143,7 +143,31 @@
         ga('create', 'UA-69242843-1', 'auto');
         ga('send', 'pageview');
     </script>
-
+	<style>
+		.sideMenu {
+			width: 50px;
+			height: 50px;
+			position: fixed;
+			z-index: 9999;
+			top: 40%;
+			right: 0;
+		 	background: #df3e40;
+			background: -moz-linear-gradient(top, #df3e40 0%, #ac3761 100%);
+			background: -webkit-linear-gradient(top, #df3e40 0%,#ac3761 100%);
+			background: linear-gradient(to bottom, #df3e40 0%,#ac3761 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df3e40', endColorstr='#ac3761',GradientType=0 );
+			transition:all .4s;
+			overflow:hidden;
+			box-shadow:2px 2px 10px 0px rgba(0, 0, 0, 0.44);
+		}
+		.sideMenu2{top:48%;}
+		.sideMenu h6{ opacity:0; display: inline-block; font-family:lato; font-size:16px; color:white; margin: 14px 0 0 0; text-transform:uppercase;}
+		.sideMenu:hover{
+			width:200px;
+		}
+		.sideMenu:hover h6{opacity:1;}
+		img.icon-sidemenu { float: left; margin: 12px 0 0 12px;	}
+	</style>
 </head>
 
 <body>

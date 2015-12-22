@@ -507,6 +507,33 @@ span.heading {
     margin: 24px 0 0 0;
 }
 
+.image-wrap{
+	height: auto;
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:0px; top:200px;}
+    100%  { left:0px; top:0px;}
+    
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:200px;}
+    100%  {left:0px; top:0px;}
+    
+}	
 
 /*---------- iPad in landscape -------------*/
 @media only screen 
@@ -1130,6 +1157,7 @@ and (orientation : portrait)
 			font-size: 14px;
 			height: 42px;
 		}
+		.sideMenu{display:none;}
 	}
 
 
