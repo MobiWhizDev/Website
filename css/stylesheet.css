@@ -214,6 +214,7 @@ section.section_services p.subtitle {
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+	transition:all .4s;
 }
 
 .s:hover {
@@ -234,12 +235,15 @@ section.section_services p.subtitle {
     height: 100px;
     padding-right: 40%;
 }
-div#service1 {background:url(../images/image-01.png) center no-repeat; background-position:38px 0 ;}
-div#service2 {background:url(../images/image-02.png) center no-repeat; background-position:38px 0 ;}
-div#service3 {background:url(../images/image-03.png) center no-repeat; background-position:38px 0 ;}
-div#service4 {background:url(../images/image-04.png) center no-repeat; background-position:38px 0 ;}
+div#service1 {background:url(../images/image-01.png) center no-repeat; background-position:38px 0 ; transition:all .4s;}
+div#service2 {background:url(../images/image-02.png) center no-repeat; background-position:38px 0 ; transition:all .4s;}
+div#service3 {background:url(../images/image-03.png) center no-repeat; background-position:38px 0 ; transition:all .4s;}
+div#service4 {background:url(../images/image-04.png) center no-repeat; background-position:38px 0 ; transition:all .4s;}
 
-
+.s:hover div#service1 {background:url(../images/image-01.png) center no-repeat; background-position:38px -100px ;}
+.s:hover div#service2 {background:url(../images/image-02.png) center no-repeat; background-position:38px -104px ;}
+.s:hover div#service3 {background:url(../images/image-03.png) center no-repeat; background-position:38px -110px ;}
+.s:hover div#service4 {background:url(../images/image-04.png) center no-repeat; background-position:38px -100px ;}
 /*------------------------------------ servey Start ----------------------------*/
 
 section.section_servey {
