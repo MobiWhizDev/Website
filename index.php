@@ -56,12 +56,12 @@
             	<img src="images/icon-call2.png" class="icon-sidemenu">
                 <h6>(+1)267-933-0030</h6>
             </div>
-        <a href="" data-toggle="modal" data-target=".bs-example-modal-lg">    
+        	<a href="" data-toggle="modal" data-target=".bs-example-modal-lg">    
             <div class="sideMenu sideMenu2">
             	<img src="images/icon-chat.png" class="icon-sidemenu">
                 <h6>Get a Quote</h6>
             </div>
-        </a>      
+        	</a>      
         <div class="container">
             <h3> OUR SERVICES </h3>
             <p class="subtitle"> We are a mobile app development agency with tons of experience in creating intuitive app design with rock solid development that helps create new brands for startups and new products for enterprises.</p>
@@ -71,27 +71,24 @@
         <div class="bg-services">
             <div class="container">
                 <div class="col-md-3 s" id="s1">
-                    <div class="icon-services">
-                        <img src="images/ios-hover.png" class="bottom">
-                        <img src="images/ios.png" class="top">
+                    <div class="icon-services" id="service1">
+                        <!-- background images is here -->
                     </div>
                     <br>
                     <h5> IOS App Development  </h5>
                     <p>With certified iOS app developers, we develop exceptional iPhone and iPad apps. Our development process is optimized for the iOS paradigm.</p>
                 </div>
                 <div class="col-md-3 s" id="s2">
-                    <div class="icon-services">
-                        <img src="images/anroid-hover.png" class="bottom">
-                        <img src="images/anroid.png" class="top">
+                    <div class="icon-services" id="service2">
+                         <!-- background images is here -->
                     </div>
                     <br>
                     <h5> Android App Development  </h5>
                     <p>When we develop Android Apps, our app developers ensure that all apps are properly handcrafted for rich user experience to ensure maximum feature utility.</p>
                 </div>
                 <div class="col-md-3 s" id="s3">
-                    <div class="icon-services">
-                        <img src="images/mob-hover.png" class="bottom">
-                        <img src="images/mob.png" class="top">
+                    <div class="icon-services" id="service3">
+                         <!-- background images is here -->
                     </div>
                     <br>
                     <h5> Mobile Game Development </h5>
@@ -101,9 +98,8 @@
                     </p>
                 </div>
                 <div class="col-md-3 s" id="s4">
-                    <div class="icon-services">
-                        <img src="images/web-hover.png" class="bottom">
-                        <img src="images/web.png" class="top">
+                    <div class="icon-services" id="service4">
+                         <!-- background images is here -->
                     </div>
                     <br>
                     <h5> Web Development </h5>

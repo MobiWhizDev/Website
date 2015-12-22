@@ -205,17 +205,9 @@ section.section_services p.subtitle {
     font-family: calibri;
 }
 
-.col-md-3 img {
-    position: absolute;
-    -webkit-transition: opacity .1s ease-in-out;
-    -moz-transition: opacity .1s ease-in-out;
-    -o-transition: opacity .1s ease-in-out;
-    transition: opacity .1s ease-in-out;
-}
 
-.col-md-3:hover img.top {
-    opacity: 0;
-}
+
+
 
 .s {
     transition: all .4s;
@@ -242,6 +234,10 @@ section.section_services p.subtitle {
     height: 100px;
     padding-right: 40%;
 }
+div#service1 {background:url(../images/image-01.png) center no-repeat; background-position:38px 0 ;}
+div#service2 {background:url(../images/image-02.png) center no-repeat; background-position:38px 0 ;}
+div#service3 {background:url(../images/image-03.png) center no-repeat; background-position:38px 0 ;}
+div#service4 {background:url(../images/image-04.png) center no-repeat; background-position:38px 0 ;}
 
 
 /*------------------------------------ servey Start ----------------------------*/

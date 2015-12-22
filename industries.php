@@ -22,6 +22,17 @@
 
 <!-- Section Services Start -->
 <section class="section_services">	
+			<div class="sideMenu">
+            	<img src="images/icon-call2.png" class="icon-sidemenu">
+                <h6>(+1)267-933-0030</h6>
+            </div>
+        	<a href="" data-toggle="modal" data-target=".bs-example-modal-lg">    
+            <div class="sideMenu sideMenu2">
+            	<img src="images/icon-chat.png" class="icon-sidemenu">
+                <h6>Get a Quote</h6>
+            </div>
+        	</a>  
+            
     <div class="container">
         <h3> INDUSTRIES</h3>
         <p class="subtitle">MobiWhiz has the credit to work on some of the top mobile apps and games developed for both startups and enterprises in various industries</p>

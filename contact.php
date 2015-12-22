@@ -23,6 +23,16 @@
 
 <!-- secction contact start -->
 <section class="section_contact" id="contactform">
+			<div class="sideMenu">
+            	<img src="images/icon-call2.png" class="icon-sidemenu">
+                <h6>(+1)267-933-0030</h6>
+            </div>
+        	<a href="" data-toggle="modal" data-target=".bs-example-modal-lg">    
+            <div class="sideMenu sideMenu2">
+            	<img src="images/icon-chat.png" class="icon-sidemenu">
+                <h6>Get a Quote</h6>
+            </div>
+        	</a>  
 		<?php include('includes/contact_form.php'); ?>
 		<!-- --------- container end ------------- -->
 
