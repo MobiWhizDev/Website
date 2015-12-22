@@ -445,9 +445,17 @@ label#phone2-error, label#comments-error, label#phone-footer2-error{
 
 .read-more-target {
   opacity: 0;
-  max-height: 0;
+  height: 0;
   font-size: 0;
   transition: .25s ease;
+}
+
+.read-more-target br {
+	display: none;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target br {
+	display: block;
 }
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
@@ -457,48 +465,21 @@ label#phone2-error, label#comments-error, label#phone-footer2-error{
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+  content: '+ READ MORE';
 }
+
+
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
+  content: '- READ LESS';
 }
-
-.read-more-trigger {
-  cursor: pointer;
-    display: inline-block;
-    padding: 0 .5em;
-    color:	#666;
-    font-size: 16px;
-    line-height: 3;
-    border: 1px solid rgba(86, 86, 86, 0.58);
-    border-radius: .25em;
-    width: 40%;
-    height: 50px;
-    font-family: lato;
-    text-transform: uppercase;
-    background: rgba(128, 128, 128, 0.14);
-    font-weight: 100;
-}
-.bg-text {
-    background: rgba(128, 128, 128, 0.04);
-    margin: 24px;
-    border-radius: 5px;
-    padding: 40px;
-    text-align: center;
-    color: gray;
-    font-weight: 100;
-    font-family: Lato;
-	font-size:14px;
-	border: solid 1px rgba(128, 128, 128, 0.2);
-}
+section.more-text { background: #14181d; font-family:lato; font-size:14px; font-weight:100; color:#677280; padding: 50px 0 50px 0; }
 span.heading {
-    font-family: Lato;
-    font-size: 22px;
-	font-weight:100;
+    color: #b9babc;
+    font-family: lato;
+    font-weight: 100;
+    font-size: 15px;
     text-transform: uppercase;
-    display: block;
-    margin: 24px 0 0 0;
 }
 
 
