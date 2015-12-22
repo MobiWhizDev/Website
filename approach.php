@@ -6,19 +6,20 @@
                 <div class="item active">
                     <img src="images/bg-approach.jpg" class="img-slider" alt="...">
                     <div class="carousel-caption">
-                        <!-------- Capiton 1 Start -------->
+                        <!-- Capiton 1 Start -->
                         <h2> We adopt <br>Best Practices!</h2>
                         <h4> From Startups to Enterprises, our approach is to deliver unbelievable user experiences!.</h4>
                         <br>
                         <br>
                         <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
-                        <!------- Caption 1 End -------->
+                        <!-- Caption 1 End -->
                     </div>
                 </div>
             </div>
         </div>
-        <!--------------------- Home slider end -------------------->
-        <!--------------------- Section Services Start ------------->
+        <!-- Home slider end -->
+        
+        <!-- Section Services Start -->
         <section class="section_services">
             <div class="container">
                 <h3> OUR APPROACH </h3>
@@ -27,9 +28,9 @@
                 <br>
             </div>
         </section>
-        <!--------------------- Section Services End ------------->
-        <!--------------------- Section Mobile App Strategy  start ------------->
-        <!--<section class="section_servey anroid">-->
+        <!-- Section Services End -->
+        
+        <!-- Section Mobile App Strategy  start -->
         <div class="col-md-12">
             <div class="col-md-6">
                 <img src="images/approach_strategy.jpg">
@@ -54,8 +55,9 @@
                 </div>
             </div>
         </div>
-        <!--------------------- Section Mobile App Strategy  End --------------->
-        <!--------------------- Section Mobile App Design start ------------->
+        <!-- Section Mobile App Strategy  End -->
+        
+        <!-- Section Mobile App Design start -->
         <div class="col-md-12">
             <div class="col-md-6 seagreen">
             <img src="images/approach_design.jpg" class="img-responsive">
@@ -81,9 +83,9 @@
                 <img src="images/approach_design.jpg" class="img-desktop">
             </div>
         </div>
-        <!--------------------- Section Mobile App Design End --------------->
-        <!--------------------- Section Development start ------------->
-        <!--<section class="section_servey anroid">-->
+        <!-- Section Mobile App Design End -->
+        
+        <!-- Section Development start -->
         <div class="col-md-12">
             <div class="col-md-6">
                 <img src="images/approach_development.jpg">
@@ -107,8 +109,9 @@
                 </div>
             </div>
         </div>
-        <!-- ------------------- Section Development End ------------- -->
-        <!-- ------------------- Section Mobile App start ----------- -->
+        <!-- Section Development End -->
+        
+        <!-- Section Mobile App start -->
         <div class="col-md-12">
             <div class="col-md-6 bg-purple">
             <img src="images/approach_marketing.jpg" class="img-responsive">
@@ -134,8 +137,9 @@
                 <img src="images/approach_marketing.jpg" class="img-desktop">
             </div>
         </div>
-        <!-- ------------------- Mobile App End ------------- -->
-		<!-- ------- start --------- -->
+        <!-- Mobile App End -->
+        
+		<!-- start -->
         <div class="col-md-12 approach-process">
         	<div class="container">
             	<div class="col-md-4 icon-image">
@@ -190,7 +194,7 @@
                                 <h3>Business Process Validation</h3>
                                 <p> We know that you have a unique Idea for your app development, but in the real world it has to be validated for rich user experience and ensuring that you get your required business results. At MobiWhiz we have a set team of dedicated business analyst that will work with you to understand your business Idea and validate the entire process as per industry requirements.</p>
                             </div>
-                            
+                                                        
                             <div class="desc" id="desc2">
                                 <h3>Technical Documentation</h3>
                                 <p> Documentation is something we take very serious, as we know that a lot of features requires detail discussions and brainstorming before a final process is adopted and that’s where our project managers ensure that proper technical documentation is done for our production team to understand the business logics and scope requirements before the actual coding starts.</p>
@@ -221,10 +225,10 @@
                 
             </div>
         </div>
-        <!--------- end ------------->
+        <!-- end -->
         
       
-        <!-- secction contact start -->
+        <!-- section contact start -->
         <section class="section_contact">
             <?php include('includes/contact_form.php'); ?>
             <!-- container end -->

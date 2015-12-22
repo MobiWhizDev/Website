@@ -6,21 +6,20 @@
                 <div class="item active">
                     <img src="images/bg-services.jpg" class="img-slider" alt="...">
                     <div class="carousel-caption">
-                        <!-------- Capiton 1 Start -------->
+                        <!-- Capiton 1 Start -->
                         <h2> Handcrafting Mobile Experience <br>from Ground Up!</h2>
-                        <h4> Providing 360 Degree of Mobile App Development Services <!--that delivers <br> nothing but perfection.--></h4>
-                        <br>
-                        <br>
+                        <h4> Providing 360 Degree of Mobile App Development Services </h4>
+                        <br><br>
                             <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
                        
-                        <!------- Caption 1 End -------->
+                        <!-- Caption 1 End -->
                     </div>
                 </div>
             </div>
          
         </div>
-        <!--------------------- Home slider end -------------------->
-        <!--------------------- Section Services Start ------------->
+        <!-- Home slider end -->
+        <!-- Section Services Start -->
         <section class="section_services">
             <div class="container">
                 <h3> OUR SERVICES </h3>
@@ -29,8 +28,8 @@
                 <br>
             </div>
         </section>
-        <!--------------------- Section Services End ------------->
-        <!--------------------- Section IOS start ------------->
+        <!-- Section Services End -->
+        <!-- Section IOS start -->
         <section class="section_servey">
             <div class="container">
                 <div class="col-md-6">
@@ -62,8 +61,8 @@
                 </div>
             </div>
         </section>
-        <!--------------------- Section IOS End --------------->
-        <!--------------------- Section Anroid start ------------->
+        <!-- Section IOS End -->
+        <!-- Section Anroid start -->
         <section class="section_servey anroid anroid2">
             <div class="container">
                 <div class="col-md-6">
@@ -88,21 +87,16 @@
                             <li>TABLETS</li>
                             <li class="hide-li">&nbsp;</li>
                         </ul>
-                    </div>
-                    
-                        <button class="button-quote-services" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
-                
-                    
-                    <img src="images/anroid-mobile.png" class="img-responsive">
-                    
+                    </div>                    
+                        <button class="button-quote-services" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                                    
+                    <img src="images/anroid-mobile.png" class="img-responsive">                    
                    
-                        <button class="button-quote-services hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
-                   
+                        <button class="button-quote-services hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                   
                 </div>
             </div>
         </section>
-        <!-- ------------------- Section Anroid End ------------ - -->
-        <!-- ------------------- Section Game start ----------- -->
+        <!-- Section Anroid End -->
+        <!-- Section Game start -->
         <section class="section_servey game">
             <div class="container">
                 <div class="col-md-6">
@@ -122,21 +116,17 @@
                             <li>3D Game Development</li>
                             <li class="hide-li">&nbsp;</li>
                         </ul>
-                    </div>
-                    
-                        <button class="button-quote-services button-white" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
-                   
+                    </div>                    
+                        <button class="button-quote-services button-white" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                   
                 </div>
                 <div class="col-md-6">
                     <img src="images/game.png" class="img-mobile">
                     
-                        <button class="button-quote-services button-white hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
-                   
-                </div>
-                
+                        <button class="button-quote-services button-white hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                   
+                </div>                
             </div>
         </section>
-        <!-- ------------------- Section Game End ------------ - -->
+        <!-- Section Game End -->
         <section class="section_approach">
             <div class="container">
                 <div class="col-lg-6 approach_right">
@@ -146,7 +136,6 @@
                 <div class="col-lg-6 approach_left">
                     <div class="wrap">
                         <h1> 1 </h1>
-                        <!--<a href="#" id="hoverelement" class="change-text">Strategy</a>-->
                         <span class="text-active">Strategy
                 <br>
                 <a href="" class="text-deactive">It all starts with a strategic vision. We understand your core business and your customers. From there we work to develop a sound strategy, the key factor to any successful project.
@@ -180,11 +169,11 @@
                 </div>
             </div>
         </section>
-        <!-- ------------------- Section Work End --------------- -->
+        <!-- Section Work End -->
         <!-- secction contact start -->
         <section class="section_contact">
             <?php include('includes/contact_form.php'); ?>
-            <!-- --------- container end ------------- -->
+            <!-- container end -->
         </section>
     </div>
     

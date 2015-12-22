@@ -11,14 +11,11 @@
               <h2> Passionate<br>App Developers</h2>
               <h4> Design, Development, and Deployment of Extraordinary Apps</h4>
               <br> <br>
-             <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
-              
+             <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>             
           </div>
         </div>
       </div>
     </div>
-
-
     <!-- Section Services Start -->
     <section class="section_services">
         <div class="container">
@@ -36,48 +33,37 @@
         </div>	
     </section>
     <!-- Section Services End -->
-
     <div class="col-md-12 reviews">
     	<div class="container reviews">
-            <h3> OUR CLIENT REVIEWS </h3>
-            		
+            <h3> OUR CLIENT REVIEWS </h3>       		
             <div class="col-md-4">
               <div class="col-md-12 testimonials">
                   <h5>"Exceptional Designs"</h5>
-                  <p>Our experience with MobiWhiz has been exceptional! Coming from graphic design industry, we had a lot of emphasis on creativity and design esthetics for our Design Mantic Mobile App. The result was beautifully designed, simple and elegant – just what we had expected for and only better. We were amazed by the excellent work that has come out of their shop – the attention to detail, and especially the quick turnaround is just stellar. We would recommend them to anyone looking to keep their development costs down without sacrificing quality in the end result.</p>
-      			
+                  <p>Our experience with MobiWhiz has been exceptional! Coming from graphic design industry, we had a lot of emphasis on creativity and design esthetics for our Design Mantic Mobile App. The result was beautifully designed, simple and elegant – just what we had expected for and only better. We were amazed by the excellent work that has come out of their shop – the attention to detail, and especially the quick turnaround is just stellar. We would recommend them to anyone looking to keep their development costs down without sacrificing quality in the end result.</p>    			
                   <div class="arrow-down"></div>
-              </div>
-            
+              </div>         
             	<div class="col-md-6 client">
                 		<!--<img src="images/client-1.png" class="img-client">-->
                   <h6><span class="italic">DesignMantic Team</span></h6>
               </div>
-            </div>
-            
-            
+            </div>                        
             <div class="col-md-4">
               <div class="col-md-12 testimonials">
                   <h5>"Awsome Process"</h5>
                   <p>Working with MobiWhiz doesn’t feel like working with a development company; it feels as if we have opened another department within the firm. They provide highly motivated, skilled and a proactive team. They have developed a good understanding of our strategies and business flow of the Survey Crest app and found a way to successfully complement our operations without causing any discontinuities or issues on our side. Since the start of the project, they made us feel like we are a part of the family. You Guys Rock!.</p>
                   <div class="arrow-down"></div>
-              </div>
-            	
+              </div>            	
               <div class="col-md-6 client">
-              		<!--<img src="images/client-2.png" class="img-client">-->
                       <h6><span class="italic">SurveyCrest Team</span></h6>
               </div>
-            </div>
-            
+            </div>            
             <div class="col-md-4">
                 <div class="col-md-12 testimonials">
                     <h5>"Great Flexibility"</h5>
                     <p> Product innovation has always been our company’s vision and the quality of innovation and responsiveness provided by MobiWhiz team has been exemplary. This was our first attempt to outsource one of our products and they proved our decision right. We got an entire team working round the clock to understand and service our needs and worked very hard to provide us solutions we were after.</p>
                     <div class="arrow-down"></div>
-                </div>
-            	
+                </div>            	
                 <div class="col-md-6 client">
-                		<!--<img src="images/client-3.png" class="img-client">-->
                         <h6><span class="italic">Andrew Martinez</span></h6>
                 </div>
             </div>   		                
@@ -85,32 +71,23 @@
     </div>
 <!--- Reviews End --->
 
-
-
-
-
 <!-- Reviews 2 Start -->
 <div class="col-md-12 reviews reviews-responsive">
-
-	<div id="myCarousel" class="carousel slide reviews-slider" data-ride="carousel">
-    	
+	<div id="myCarousel" class="carousel slide reviews-slider" data-ride="carousel">    	
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item item-reviews active">
           	<div class="col-md-4">
               <div class="col-md-12 testimonials">
                   <h5>"Exceptional Designs"</h5>
-                  <p>Our experience with MobiWhiz has been exceptional! Coming from graphic design industry, we had a lot of emphasis on creativity and design esthetics for our Design Mantic Mobile App. The result was beautifully designed, simple and elegant – just what we had expected for and only better. We were amazed by the excellent work that has come out of their shop – the attention to detail, and especially the quick turnaround is just stellar. We would recommend them to anyone looking to keep their development costs down without sacrificing quality in the end result.</p>
-      			
+                  <p>Our experience with MobiWhiz has been exceptional! Coming from graphic design industry, we had a lot of emphasis on creativity and design esthetics for our Design Mantic Mobile App. The result was beautifully designed, simple and elegant – just what we had expected for and only better. We were amazed by the excellent work that has come out of their shop – the attention to detail, and especially the quick turnaround is just stellar. We would recommend them to anyone looking to keep their development costs down without sacrificing quality in the end result.</p>      			
                   <div class="arrow-down"></div>
               </div>
             	<div class="col-md-6 client">
                   <h6><span class="italic">DesignMantic Team</span></h6>
               </div>
             </div>
-        </div>
-        
-    
+        </div>            
         <div class="item item-reviews">
           <div class="col-md-4">
               <div class="col-md-12 testimonials">
@@ -122,8 +99,7 @@
                       <h6><span class="italic">SurveyCrest Team</span></h6>
               </div>
             </div>
-        </div>
-    
+        </div>    
         <div class="item item-reviews">
           <div class="col-md-4">
                 <div class="col-md-12 testimonials">
@@ -135,9 +111,7 @@
                         <h6><span class="italic">Andrew Martinez</span></h6>
                 </div>
             </div>  
-        </div>
-    
-        
+        </div>            
       </div>
     
       <!-- Left and right controls -->

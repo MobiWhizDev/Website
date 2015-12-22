@@ -26,8 +26,7 @@
                     <!-- Capiton 2 Start -->
                     <h2> Make memories with Social Apps</h2>
                     <p class="p2"></p>
-                    <h4> Changing the way you #Tag, #Share & #Live Life by our Social Apps 
-              </h4>
+                    <h4> Changing the way you #Tag, #Share & #Live Life by our Social Apps</h4>
                     <br>
                     <br>
                     <button type="button" class="button" data-toggle="modal" data-target=".bs-example-modal-lg">
@@ -46,17 +45,13 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-        
-         
-        
     </div>
-    <!--------------------- Home slider end -------------------->
+    <!-- Home slider end -->
     
    
 
     <!-- Section Services Start -->
-    <section class="section_services">    
-    	
+    <section class="section_services">        	
             <div class="sideMenu">
             	<img src="images/icon-call2.png" class="icon-sidemenu">
                 <h6>(+1)267-933-0030</h6>
@@ -66,8 +61,7 @@
             	<img src="images/icon-chat.png" class="icon-sidemenu">
                 <h6>Get a Quote</h6>
             </div>
-        </a>
-        
+        </a>      
         <div class="container">
             <h3> OUR SERVICES </h3>
             <p class="subtitle"> We are a mobile app development agency with tons of experience in creating intuitive app design with rock solid development that helps create new brands for startups and new products for enterprises.</p>
@@ -118,8 +112,8 @@
             </div>
         </div>
     </section>
-    <!--------------------- Section Services End ------------->
-    <!--------------------- Section servey start ------------->
+    <!-- Section Services End -->
+    <!-- Section servey start -->
     <section class="section_servey">
         <div id="carousel-example-generic2" class="carousel slide servey-slide" data-ride="carousel">
             <!-- Wrapper for slides -->
@@ -167,7 +161,7 @@
             </a>
         </div>
     </section>
-    <!-- ------------------- Section servey End ------------- -->
+    <!-- Section servey End -->
     <section class="section_approach">
         <div class="container">
             <div class="col-lg-6 approach_right">
@@ -177,7 +171,6 @@
             <div class="col-lg-6">
                 <div class="wrap">
                     <h1> 1 </h1>
-                    <!--<a href="#" id="hoverelement" class="change-text">Strategy</a>-->
                     <span class="text-active">Strategy
                 <br>
                 <a href="" class="text-deactive">It all starts with a strategic vision. We understand your core business and your customers. From there we work to develop a sound strategy, the key factor to any successful project.
@@ -211,8 +204,8 @@
             </div>
         </div>
     </section>
-    <!--------------------- Section Work End ----------------->
-    <!--------------------- Section stack End ---------------->
+    <!-- Section Work End -->
+    <!-- Section stack End -->
     <section class="section_stack">
         <div class="container">
             <h3> OUR VALUE STACK </h3>
@@ -221,7 +214,6 @@
             <div class="container home">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                        <!--<h2 class="section-title">Our Value Stack</h2>-->
                         <div class="value-box green2">
                             <div class="value-image"> <img src="images/icon-ro.png" alt="communication">
                                 <h4 class="white">ROI</h4>
@@ -269,9 +261,9 @@
             </div>
             <!--container-fluid-->
         </div>
-        <!---- Container end ---->
+        <!---- Container end -->
     </section>
-    <!---- section stack end ---->
+    <!-- section stack end -->
     
     <!-- secction contact start -->
     <section class="section_contact">
@@ -284,25 +276,16 @@
         	<div class="bg-text">
         		<span class="heading">Develop App – Industry Outlook</span>
                 <input type="checkbox" class="read-more-state" id="post-1" />
-                 <p class="read-more-wrap"> <span class="read-more-target"> With rapid growth in the mobile app industry, the number of downloads for mobile apps developed are expected to surpass 200 billion in 2016 according to industry researchers. The mobile app development is one of the fastest growing area with over 1.4 million app developed during 2014 only and the numbers are rapidly growing. Most of the app companies are working on android app development, iOS (iPhone and iPad) and web apps. Leading app developers are expanding their skill sets to capture the mobile apps for various industries with understanding the parameters of advertising, revenue generation, ROI and rich user experience. Most of the app companies have also shifted their focus to become a one-stop solution for startups and entrepreneurs by providing complete app development and digital marketing services. Top mobile app developers are also working on new up-coming technologies to capture the new market of hardware based apps, wearable’s, and other enterprise enabled apps. <br>               
-                 
-                 
+                 <p class="read-more-wrap"> <span class="read-more-target"> With rapid growth in the mobile app industry, the number of downloads for mobile apps developed are expected to surpass 200 billion in 2016 according to industry researchers. The mobile app development is one of the fastest growing area with over 1.4 million app developed during 2014 only and the numbers are rapidly growing. Most of the app companies are working on android app development, iOS (iPhone and iPad) and web apps. Leading app developers are expanding their skill sets to capture the mobile apps for various industries with understanding the parameters of advertising, revenue generation, ROI and rich user experience. Most of the app companies have also shifted their focus to become a one-stop solution for startups and entrepreneurs by providing complete app development and digital marketing services. Top mobile app developers are also working on new up-coming technologies to capture the new market of hardware based apps, wearable’s, and other enterprise enabled apps. <br>                        
                 <span class="heading">MobiWhiz – Top App Development Company</span>
-                MobiWhiz.com was established with a vision to work on developing new ideas in the app industry and work as development partners for startups. Our app company aims to focus on the frontiers of app development for both Android apps and iOS app for both iPhone and iPad development and hence has enabled a team of designers with development wizards and app strategist gurus that work closely to create beautiful apps that brings rich user experience and are technology advanced in the market.<br>                
-                
-                
-                <span class="heading">App Developer – Android App and iOS App Development</span>
-               
-                As leading app developers, our services are geared towards app design and development of android apps, iOS (iPhone and iPad) app development and web apps. Our app developers have extensive experience in their respective fields and are industry certified. The app design team has some of the most prominent names with us that are known for creating remarkable app experience for app users. MobiWhiz has a separate team of app strategist that work with the design and development team to ensure that the business model of the customers is kept at the forefront of the app development.<br>
-                
+                MobiWhiz.com was established with a vision to work on developing new ideas in the app industry and work as development partners for startups. Our app company aims to focus on the frontiers of app development for both Android apps and iOS app for both iPhone and iPad development and hence has enabled a team of designers with development wizards and app strategist gurus that work closely to create beautiful apps that brings rich user experience and are technology advanced in the market.<br>                   
+                <span class="heading">App Developer – Android App and iOS App Development</span>    
+                As leading app developers, our services are geared towards app design and development of android apps, iOS (iPhone and iPad) app development and web apps. Our app developers have extensive experience in their respective fields and are industry certified. The app design team has some of the most prominent names with us that are known for creating remarkable app experience for app users. MobiWhiz has a separate team of app strategist that work with the design and development team to ensure that the business model of the customers is kept at the forefront of the app development.<br>       
                 Our app developers are qualified in the field of Objective C, Java, Angular JS, and hybrid app development platforms, which enables them to develop both native and hybrid apps for all industries.<br>
                 Our development process that our app developers follow is customized to deliver top-notch app according to customer requirements and result in generating maximum revenues. </span></p>
-                
-                 <label for="post-1" class="read-more-trigger"></label>
-                  
+                 <label for="post-1" class="read-more-trigger"></label>   
 			</div>
         </div>
     </section>
-
     <!--
     <?php include_once('includes/footer.php'); ?>

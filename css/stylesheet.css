@@ -1,13 +1,7 @@
 
 /*------------------------------------------------ My StyleSheet---------------------------------------*/
 body{	margin:0 !important;	padding:0 !important;}
-/*@font-face {    font-family: lato;    src: url(../fonts/Lato-Hairline.ttf);}
-@font-face {    font-family: Lato;    src: url(../fonts/Lato.ttf);}
-@font-face {    font-family: Lato;    src: url(../fonts/Lato.ttf);}
-@font-face {    font-family: lato-medium;    src: url(../fonts/Lato-Medium.ttf);}
-@font-face {    font-family: Lato;    src: url(../fonts/Lato.ttf);}
-@font-face {    font-family: lato-thin;    src: url(../fonts/Lato-Thin.ttf);}
-@font-face {    font-family: Lato;    src: url(../fonts/Lato.ttf);}*/
+
 .navbar-default .navbar-nav>li>a.button-quote {
     padding: 10px 30px 0px 30px;
     margin-right: 0;
@@ -506,6 +500,15 @@ span.heading {
     display: block;
     margin: 24px 0 0 0;
 }
+
+
+
+
+
+
+
+
+
 
 .image-wrap{
 	height: auto;
@@ -1157,7 +1160,7 @@ and (orientation : portrait)
 			font-size: 14px;
 			height: 42px;
 		}
-		.sideMenu{display:none;}
+		.sideMenu{display:none !important;}
 	}
 
 
