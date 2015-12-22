@@ -26,10 +26,10 @@
                         <div class="col-md-4">
                         <label for="exampleInputPassword1">PHONE</label>         
                         <br>
-                        <input type="tel" name="phone" id="phone" class="phone form-control" id="exampleInputphone" placeholder="enter your phone" readonly>		
+                        <input type="tel" name="phone1" id="phone" class="phone form-control" id="exampleInputphone" placeholder="enter your phone" readonly>		
                         </div>
                         <div class="col-md-8">
-                        <input type="tel" name="phone" id="phone2" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>		
+                        <input type="tel" name="phone2" id="phone2" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>		
                         </div>
                         
                     </div>
@@ -50,7 +50,7 @@
                 <div class="col-lg-7">
                 	<div class="form-group">
                         <label for="exampleInputEmail1">Enter brief description of your project</label>
-                        <textarea class="form-control" id="comments" placeholder="enter your project brief" rows="3" required></textarea>
+                        <textarea class="form-control" id="comments" name="comments" placeholder="enter your project brief" rows="3" required></textarea>
                     </div>
                     <div class="full">
                         <a href="#dialog_submit" id="modaltrigger" style="display:none">Check</a>

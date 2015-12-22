@@ -25,7 +25,7 @@
                         <input type="tel" name="phone" id="phone-footer" class="phone form-control" id="exampleInputphone" placeholder="enter your phone" readonly>		
                         </div>
                         <div class="col-md-8">
-                        <input type="tel" name="phone" id="phone-footer2" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>		
+                        <input type="tel" name="phone2" id="phone-footer2" class="form-control" id="exampleInputphone" placeholder="enter your phone" required>		
                         </div>
                         
 			  </div>
@@ -46,7 +46,7 @@
 			  
 			  <div class="form-group">
 			  <label for="exampleInputEmail1">Enter brief description of your project</label>
-			  <textarea class="form-control" id="comments" placeholder="enter your project brief" rows="3" required></textarea>
+			  <textarea class="form-control" id="comments" name="comments" placeholder="enter your project brief" rows="3" required></textarea>
 			  </div>
 			  
 			  <div class="full">

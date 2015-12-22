@@ -19,16 +19,18 @@ $(function() {
     $('#modaltrigger').leanModal();
 });
 
-function formSubmit() {
+function formSubmit(form) {
 
+    formData = form.serializeArray();
 
     $data = {
-        name: $("#fullname").val(),
-        email: $("#email").val(),
-        phone: $("#phone").val() + ' ' + $("#phone2").val(),
-        qrytype: $("#qrytype").val(),
-        comments: $("#comments").val()
+        name: formData[0].value,
+        email: formData[1].value,
+        phone: formData[2].value + ' ' + formData[3].value,
+        qrytype: formData[4].value,
+        comments: formData[5].value
     };
+
     return $("#dialog_submit").html("<img src='images/loading.gif' />"), $("#modaltrigger").click(), $.post("rest.php", $data, function(t) {
         $.post("mail.php", $data);
         /* <![CDATA[ */
@@ -42,7 +44,9 @@ function formSubmit() {
         var google_remarketing_only = false;
         /* ]]> */
 
-        t = $.trim(t), $("#dialog_submit").html("-1" == t || "" == t ? "Error while connecting to server" : "Your message has been successfully submitted!"), $("#modaltrigger").click()
+        t = $.trim(t), $("#dialog_submit").html("-1" == t || "" == t ? "Error while connecting to server" : "Your message has been successfully submitted!"), $("#modaltrigger").click();
+
+        return false;
     }), !1
 }
 
@@ -72,8 +76,9 @@ $(".phone").intlTelInput({
 
 
 $.validator.setDefaults({
-    submitHandler: function() {
-        formSubmit();
+    submitHandler: function(form) {
+
+        formSubmit($(form));
     }
 });
 
