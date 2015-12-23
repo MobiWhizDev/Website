@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-        <!--- Reviews End --->
+        <!--- Reviews End -->
         <!-- Reviews 2 Start -->
         <div class="col-md-12 reviews reviews-responsive">
             <div id="myCarousel" class="carousel slide reviews-slider" data-ride="carousel">
@@ -123,7 +123,7 @@
                 </a>
             </div>
         </div>
-        <!--- Reviews2 End --->
+        <!--- Reviews2 End -->
         <!-- secction contact start -->
         <section class="section_contact">
             <?php include('includes/contact_form.php'); ?>

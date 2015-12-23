@@ -66,7 +66,7 @@
             <div class="container">
             </div>
         </section>
-        <!-- Section IOS End --->
+        <!-- Section IOS End -->
         <!-- section contact start -->
         <section class="section_contact">
             <?php include('includes/contact_form.php'); ?>
