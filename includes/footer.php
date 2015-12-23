@@ -1,10 +1,10 @@
 <div class="sideMenu">
-    <img src="images/icon-call2.png" class="icon-sidemenu">
+    <img src="images/icon-call2.png" class="icon-sidemenu">&nbsp;&nbsp;&nbsp;
     <h6>(+1)267-933-0030</h6>
 </div>
 <a href="" data-toggle="modal" data-target=".bs-example-modal-lg">
     <div class="sideMenu sideMenu2">
-        <img src="images/icon-chat.png" class="icon-sidemenu">
+        <img src="images/icon-chat.png" class="icon-sidemenu">&nbsp;&nbsp;&nbsp;
         <h6>Get a Quote</h6>
     </div>
 </a>

@@ -25,7 +25,7 @@
 
                         		   
                                   <input type="text" class="text-box country-code" placeholder="Phone" required>
-                                  <select id="qrytype" name="query" class="text-box form-control" required>
+                                  <select id="qrytype1" name="query" class="text-box form-control" required>
                                     <option>Query Type</option>
                                     <option>IOS App Development</option>
                                     <option>Anroid App Development</option>
