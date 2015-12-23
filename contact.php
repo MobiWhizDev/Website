@@ -6,40 +6,32 @@
         <div class="item active">
           <img src="images/bg-contact.jpg" class="img-slider" alt="...">
           <div class="carousel-caption">
-              <!-------- Capiton 1 Start -------->
+              <!-- Capiton 1 Start -->
               <h2> Talk to Us <br>About Your Project</h2>
               <h4>Our App Strategist will develop the best app strategy and App Designs Free of Cost for you</h4>
               <br> <br>
               <a href="#contactform"><button class="button"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button></a>
            
-              <!------- Caption 1 End -------->
+              <!-- Caption 1 End -->
           </div>
         </div>
         
       </div>
     </div>
 
-<!--------------------- Home slider end -------------------->
+<!-- Home slider end -->
 
 <!-- secction contact start -->
 <section class="section_contact" id="contactform">
 			
 		<?php include('includes/contact_form.php'); ?>
-		<!-- --------- container end ------------- -->
+		<!--  container end  -->
 
 </section>
-<!--------------------- section contact end -------------->
+<!-- section contact end -->
 
 
-
-
-
-
-
-
-
-
-<!--------------------- Section Services Start ------------->
+<!-- Section Services Start -->
 <section class="section_services map">
 	
     <div class="container">
