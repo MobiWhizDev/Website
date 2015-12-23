@@ -1302,53 +1302,38 @@ span.heading {
     text-transform: uppercase;
 }
 
-.image-wrap {
-    height: auto;
-    overflow: hidden;
-    max-width: 800px;
-    margin: auto;
-    position: relative;
-}
+/*---------- Landing Page CSS --------*/
+.col-md-8.landing-left {    text-align: left; padding:60px 40px 0 0;}
+.landing-left  h5{font-size:34px; font-family:lato; font-weight:100 !important; line-height:1.3;}
+span.bold {    font-weight: bold;}
+.landing-left  h6{color:#b8b7b7; font-family:lato; font-weight:100; font-size:17px; line-height:1.3;}
+.col-md-4.landing-right { margin: -60px 0 0 0;}
+.form {width: 100%; height: 550px; background: #f5f4f4; padding:20px 35px 10px 35px;}
+.form h5 { color: #565e67; font-family: lato; font-size: 20px; text-shadow: none;}
+input.text-box, textarea { display: block; margin: auto; margin-top: 12px; width: 100%; height: 50px; border-radius: 4px; border: solid 1px rgba(128, 128, 128, 0.52); padding:0 0 0px 20px; color:#333; font-weight:100;}
+input.text-box.country-code { width: 60%; margin-right: 0; margin-top:10px;}
+textarea{height:100px; padding:15px 0 0px 20px;}
+select#qrytype{margin:13px 0 0 0; padding:0 0 0px 10px; height:50px;}
+.landing-button { font-family:lato; font-weight:100; font-size:15px; width: 100% !important; border: none; margin: auto; float: none !important; margin:20px 0 0 0; 
+	background: #df3e40 !important;
+    background: -moz-linear-gradient(top, #df3e40 0%, #ac3761 100%) !important;
+    background: -webkit-linear-gradient(top, #df3e40 0%,#ac3761 100%) !important;
+    background: linear-gradient(to bottom, #df3e40 0%,#ac3761 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df3e40', endColorstr='#ac3761',GradientType=0 );}
+.landing-button:focus{outline:none !important;}	
+span.red{color:#df3e40; font-weight:bold;}
+.landing-about { background: #f5f7f9;}
+section.section_services.landing { padding: 40px 0 0 0;}
+p.landing{width:100% !important; color:#707882;}
+.landing-icon { text-align: left; margin:50px 0 0 0;}
+.landing-heading{text-align:left; margin:40px 0 0 0; color:#7c838c; font-weight:100; font-family:lato; font-size:13px;}
+.landing-heading h4 {font-size: 16px; text-transform: uppercase; font-weight: bold; color:#37424f;}
+.landing-process{background:#f5f7f9 !important; padding-bottom:0 !important;}
+/*-------- Landing Page CSS End ------*/
 
-
-/* Chrome, Safari, Opera */
-
-@-webkit-keyframes example {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
-    25% {
-        left: 0px;
-        top: 200px;
-    }
-    100% {
-        left: 0px;
-        top: 0px;
-    }
-}
-
-
-/* Standard syntax */
-
-@keyframes example {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
-    25% {
-        left: 0px;
-        top: 200px;
-    }
-    100% {
-        left: 0px;
-        top: 0px;
-    }
-}
 
 
 /*---------- iPad in landscape -------------*/
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     /* STYLES GO HERE */
     .col-md-3.logo {
