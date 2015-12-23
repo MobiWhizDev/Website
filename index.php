@@ -250,7 +250,8 @@
     <section class="section_contact">
         <?php include('includes/contact_form.php'); ?>
     </section>
-    <!-- secction contact end -->
+    <!-- section contact end -->
+    
     <section class="more-text">
         <div class="container">
             <div class="bg-text">
