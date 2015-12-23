@@ -473,6 +473,7 @@ section.section_contact p.subtitle {
 .form-control {
     font-family: Lato;
     background: white;
+	height:42px;
 }
 
 input#exampleInputname {
@@ -1201,6 +1202,7 @@ button.btn.btn-default.form-button {
 textarea#comments {
     height: 136px;
     padding: 12px 0 0 20px;
+	margin:0;
 }
 
 .modal.fade.bs-example-modal-lg.in {
@@ -1251,7 +1253,7 @@ input#phone-footer {
 }
 
 input#phone-footer2 {
-    margin: 30px 0 0 0;
+    margin: 25px 0 0 0;
     width: 218px;
 }
 
