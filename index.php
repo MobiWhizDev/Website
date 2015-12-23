@@ -51,7 +51,9 @@
    
 
     <!-- Section Services Start -->
-    <section class="section_services">        	
+    <section class="section_services"> 
+        
+        <!--<div class="outer-sidemenu"> -->	
             <div class="sideMenu">
             	<img src="images/icon-call2.png" class="icon-sidemenu">
                 <h6>(+1)267-933-0030</h6>
@@ -62,6 +64,8 @@
                 <h6>Get a Quote</h6>
             </div>
         	</a>      
+    	<!--</div>-->
+        
         <div class="container">
             <h3> OUR SERVICES </h3>
             <p class="subtitle"> We are a mobile app development agency with tons of experience in creating intuitive app design with rock solid development that helps create new brands for startups and new products for enterprises.</p>

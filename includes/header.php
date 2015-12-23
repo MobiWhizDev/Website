@@ -144,13 +144,32 @@
         ga('send', 'pageview');
     </script>
 	<style>
+		/*.outer-sidemenu{
+			height: auto;
+			width: auto;
+			position: fixed;
+			background: black;
+			z-index: 9999;
+			top: 40%;
+			right: 0;
+			overflow:visible;
+			transition:all .4s;
+			
+		}
+		.sideMenu {
+			border: solid 1px yellow;
+			height: 50px;
+			margin: 10px 0 0 0;
+			width:50px;
+			transition:all .4s;
+		}*/
 		.sideMenu {
 			display:none;
 			width: 50px;
 			height: 50px;
 			position: fixed;
 			z-index: 9999;
-			top: 40%;
+			top: 268px;
 			right: 0;
 		 	background: #df3e40;
 			background: -moz-linear-gradient(top, #df3e40 0%, #ac3761 100%);
@@ -161,7 +180,7 @@
 			overflow:hidden;
 			box-shadow:2px 2px 10px 0px rgba(0, 0, 0, 0.44);
 		}
-		.sideMenu2{top:48%;}
+		.sideMenu2{top:328px;}
 		.sideMenu h6{ opacity:0; display: inline-block; font-family:lato; font-size:16px; color:white; margin: 14px 0 0 0; text-transform:uppercase;}
 		.sideMenu:hover{
 			width:200px;
