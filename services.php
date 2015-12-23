@@ -9,29 +9,17 @@
                         <!-- Capiton 1 Start -->
                         <h2> Handcrafting Mobile Experience <br>from Ground Up!</h2>
                         <h4> Providing 360 Degree of Mobile App Development Services </h4>
-                        <br><br>
-                            <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
-                       
+                        <br>
+                        <br>
+                        <button class="button" data-toggle="modal" data-target=".bs-example-modal-lg"> GET STARTED <img src="images/icon-button.png" class="icon-button"> </button>
                         <!-- Caption 1 End -->
                     </div>
                 </div>
             </div>
-         
         </div>
         <!-- Home slider end -->
         <!-- Section Services Start -->
         <section class="section_services">
-        	<div class="sideMenu">
-            	<img src="images/icon-call2.png" class="icon-sidemenu">
-                <h6>(+1)267-933-0030</h6>
-            </div>
-        	<a href="" data-toggle="modal" data-target=".bs-example-modal-lg">    
-            <div class="sideMenu sideMenu2">
-            	<img src="images/icon-chat.png" class="icon-sidemenu">
-                <h6>Get a Quote</h6>
-            </div>
-        	</a>  
-            
             <div class="container">
                 <h3> OUR SERVICES </h3>
                 <p class="subtitle">Positioned as one of the leading digital and mobile app agency, we focus on delivering nothing less than perfection to startups and enterprises and are at the forefront of delivering native mobile apps, web applications and digital marketing.</p>
@@ -61,14 +49,11 @@
                             <li>DESKTOP APP</li>
                         </ul>
                     </div>
-                        <button class="button-quote-services"  data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
-                   
+                    <button class="button-quote-services" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
                 </div>
                 <div class="col-md-6">
                     <img src="images/ios-mobile.png" class="img-mobile">
-                    
-                        <button class="button-quote-services hidden-button"  data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
-                   
+                    <button class="button-quote-services hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
                 </div>
             </div>
         </section>
@@ -98,11 +83,10 @@
                             <li>TABLETS</li>
                             <li class="hide-li">&nbsp;</li>
                         </ul>
-                    </div>                    
-                        <button class="button-quote-services" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                                    
-                    <img src="images/anroid-mobile.png" class="img-responsive">                    
-                   
-                        <button class="button-quote-services hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                   
+                    </div>
+                    <button class="button-quote-services" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                    <img src="images/anroid-mobile.png" class="img-responsive">
+                    <button class="button-quote-services hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
                 </div>
             </div>
         </section>
@@ -127,14 +111,13 @@
                             <li>3D Game Development</li>
                             <li class="hide-li">&nbsp;</li>
                         </ul>
-                    </div>                    
-                        <button class="button-quote-services button-white" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                   
+                    </div>
+                    <button class="button-quote-services button-white" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
                 </div>
                 <div class="col-md-6">
                     <img src="images/game.png" class="img-mobile">
-                    
-                        <button class="button-quote-services button-white hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>                   
-                </div>                
+                    <button class="button-quote-services button-white hidden-button" data-toggle="modal" data-target=".bs-example-modal-lg">REQUEST QUOTE NOW</button>
+                </div>
             </div>
         </section>
         <!-- Section Game End -->
@@ -184,8 +167,7 @@
         <!-- secction contact start -->
         <section class="section_contact">
             <?php include('includes/contact_form.php'); ?>
-            <!-- container end -->
+                <!-- container end -->
         </section>
     </div>
-    
- <?php include_once('includes/footer.php'); ?>
+    <?php include_once('includes/footer.php'); ?>
