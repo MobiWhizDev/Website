@@ -26,7 +26,6 @@
                         <input type="text" name="name" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name" required>
                     </div>
                     <div class="form-group">
-                        <br>
                         <label for="exampleInputPassword1">EMAIL</label>
                         <input type="email" name="email" id="email" class="form-control" id="exampleInputemail" placeholder="enter your email" required>
                     </div>
