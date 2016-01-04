@@ -122,24 +122,24 @@
                     	<img src="images/social.png">
                     </div>
                     <div class="col-md-9 landing-heading">
-                    	<h4>Rich Notification</h4>
-                        <p>As a mobile app developer, one of the key component developed with receptive design is geo-location feature that will allow you to target your right customer at the right time with right information.</p>
+                    	<h4>Social Integration</h4>
+                        <p>A major feature that will make your app go viral is your social engagement through social media integration. In-app social sharing, you will be able to share your products and services on multiple social platforms.</p>
                     </div>
                     <!-- Two -->
                     <div class="col-md-3 landing-icon">
                     	<img src="images/analytics.png">
                     </div>
                     <div class="col-md-9 landing-heading">
-                    	<h4>M-Commerce Solution</h4>
-                        <p>One of the most popular and revenue generation feature that allows you to do complete purchase activity and provide ecommerce facility on the go. </p>
+                    	<h4>Analytics</h4>
+                        <p>As a startup or enterprise app, an important component for you is to be able to track and identify your app users experience and actions. With features like getting location data, user navigation, and purchase history will help encourage better updates. </p>
                     </div>
                     <!-- Three -->
                     <div class="col-md-3 landing-icon">
                     	<img src="images/gamification.png">
                     </div>
                     <div class="col-md-9 landing-heading">
-                    	<h4>Shopping Cart</h4>
-                        <p>With our comprehensive shopping cart solution, you can build your own marketplace or integrate your online store. The solution has complete merchandise feature with stock management, sales management and comprehensive reporting. </p>
+                    	<h4>Gamification</h4>
+                        <p>Gamification has been one of the unique feature that allows users to be interactive and have fun while using the app. This feature will engage users to come on your app again and again that provides value on performing certain actions. </p>
                     </div>
                     
                 </div>
@@ -340,17 +340,14 @@
         <div class="container">
             <div class="bg-text">
             	<br>&nbsp;<br>&nbsp;<br>
-                <span class="heading">Develop App – Industry Outlook</span>
+                <span class="heading">Create App – Custom App Development</span>
                 <input type="checkbox" class="read-more-state" id="post-1" />
-                <p class="read-more-wrap"> With rapid growth in the mobile app industry, the number of downloads for mobile apps developed are expected to surpass 200 billion in 2016 according to industry researchers. The mobile app development is one of the fastest growing area with over 1.4 million app developed during 2014 only and the numbers are rapidly growing.<span class="read-more-target"> Most of the app companies are working on android app development, iOS (iPhone and iPad) and web apps. Leading app developers are expanding their skill sets to capture the mobile apps for various industries with understanding the parameters of advertising, revenue generation, ROI and rich user experience. Most of the app companies have also shifted their focus to become a one-stop solution for startups and entrepreneurs by providing complete app development and digital marketing services. Top mobile app developers are also working on new up-coming technologies to capture the new market of hardware based apps, wearable’s, and other enterprise enabled apps. <br>   <br>                  
-                <span class="heading">MobiWhiz – Top App Development Company</span>
-                    <br> MobiWhiz.com was established with a vision to work on developing new ideas in the app industry and work as development partners for startups. Our app company aims to focus on the frontiers of app development for both Android apps and iOS app for both iPhone and iPad development and hence has enabled a team of designers with development wizards and app strategist gurus that work closely to create beautiful apps that brings rich user experience and are technology advanced in the market.
+                <p class="read-more-wrap"> While searching for a good company that create app based on your custom requirements, you need to look for affordable app companies that create iOS and Android apps and provides effective solution to your new idea or a business. <span class="read-more-target"> There are companies that provide off the shelf app development with pre-built features that may work for your idea in the beginning but are not reliable as your app grows with higher number of downloads. Custom iOS and Android apps created also needs to be evaluated for features that are custom built for push notifications, social media integration, location based services, mobile commerce and payment solutions that are developed as per your demand.  <br>   <br>                  
+                Creating an app has its set process that can only be achieved through custom app development process. The process starts with validating your idea in the market. Most custom app development companies have individuals that have expertise in evaluating your business idea and transforming it into a success.  This process is mostly not followed when you create iOS and Android app through app maker or a do-it-yourself tool. In order to make your idea a success you need uniqueness and customization at every end.    
                     <br>
                     <br>
-                    <span class="heading">App Developer – Android App and iOS App Development</span>
-                    <br> As leading app developers, our services are geared towards app design and development of android apps, iOS (iPhone and iPad) app development and web apps. Our app developers have extensive experience in their respective fields and are industry certified. The app design team has some of the most prominent names with us that are known for creating remarkable app experience for app users. MobiWhiz has a separate team of app strategist that work with the design and development team to ensure that the business model of the customers is kept at the forefront of the app development.
-                    <br> Our app developers are qualified in the field of Objective C, Java, Angular JS, and hybrid app development platforms, which enables them to develop both native and hybrid apps for all industries.
-                    <br> Our development process that our app developers follow is customized to deliver top-notch app according to customer requirements and result in generating maximum revenues. </span>
+                    <span class="heading">MobiWhiz – iOS and Android App Creators </span>
+                    <br> MobiWhiz.com is a custom app development company based out of Yardley, PA, with an aim to develop apps that are unique and delivers to customer expectations through rich user experience, comprehensive market analysis, intuitive app designs and state of the art app development process. Our dedicated and certified team will focus on delivering only the best and to our customer expectations to bring the wow factor. We believe in delivering nothing but quality that is cost effective and flexible to deliver to your business needs.</span>
                 </p>
                 <label for="post-1" class="read-more-trigger"></label>
             </div>
