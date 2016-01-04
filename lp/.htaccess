@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/images/.*
+RewriteRule ^(.*\.(gif|jpg|png))$ /images/$1 [L]
+

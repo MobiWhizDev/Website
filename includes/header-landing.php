@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <base href="/" target="_blank">
     <!-- coment -->
     <?php
         
@@ -55,153 +56,188 @@
         if($page=="" || $page=="/" || $page=="/index")
         {
           ?>
-            <title><?php echo $metas['index']['header']; ?></title>
-            <meta name="description" content="<?php echo $metas['index']['description']; ?>" >
-            <meta name="keywords" content="<?php echo $metas['index']['keywords']; ?>" >
+        <title>
+            <?php echo $metas['index']['header']; ?>
+        </title>
+        <meta name="description" content="<?php echo $metas['index']['description']; ?>">
+        <meta name="keywords" content="<?php echo $metas['index']['keywords']; ?>">
         <?php
         }elseif($page=="/services")
         {
             ?>
-          <title><?php echo $metas["services"]['header']; ?></title>
-        <meta name="description" content="<?php echo $metas["services"]['description']; ?>" >
-        <meta name="keywords" content="<?php echo $metas["services"]['keywords']; ?>" >
-        <?php   
+            <title>
+                <?php echo $metas["services"]['header']; ?>
+            </title>
+            <meta name="description" content="<?php echo $metas[" services "]['description']; ?>">
+            <meta name="keywords" content="<?php echo $metas[" services "]['keywords']; ?>">
+            <?php   
         }   
 
         elseif($page=="/portfolio")
         {
             ?>
-           <title><?php echo $metas["portfolio"]['header']; ?></title>
-        <meta name="description" content="<?php echo $metas["portfolio"]['description']; ?>" >
-        <meta name="keywords" content="<?php echo $metas["portfolio"]['keywords']; ?>" >
-        <?php   
+                <title>
+                    <?php echo $metas["portfolio"]['header']; ?>
+                </title>
+                <meta name="description" content="<?php echo $metas[" portfolio "]['description']; ?>">
+                <meta name="keywords" content="<?php echo $metas[" portfolio "]['keywords']; ?>">
+                <?php   
         }   
 
         elseif($page=="/approach")
         {
 
             ?>
-           <title><?php echo $metas["approach"]['header']; ?></title>
-        <meta name="description" content="<?php echo $metas["approach"]['description']; ?>" >
-        <meta name="keywords" content="<?php echo $metas["approach"]['keywords']; ?>" >
-        <?php   
+                    <title>
+                        <?php echo $metas["approach"]['header']; ?>
+                    </title>
+                    <meta name="description" content="<?php echo $metas[" approach "]['description']; ?>">
+                    <meta name="keywords" content="<?php echo $metas[" approach "]['keywords']; ?>">
+                    <?php   
         }   
         elseif($page=="/industries")
         {
             ?>
-          <title><?php echo $metas["industries"]['header']; ?></title>
-        <meta name="description" content="<?php echo $metas["industries"]['description']; ?>" >
-        <meta name="keywords" content="<?php echo $metas["industries"]['keywords']; ?>" >
-        <?php   
+                        <title>
+                            <?php echo $metas["industries"]['header']; ?>
+                        </title>
+                        <meta name="description" content="<?php echo $metas[" industries "]['description']; ?>">
+                        <meta name="keywords" content="<?php echo $metas[" industries "]['keywords']; ?>">
+                        <?php   
         }   
 
         elseif($page=="/about")
         {
             ?>
-           <title><?php echo $metas["about"]['header']; ?></title>
-        <meta name="description" content="<?php echo $metas["about"]['description']; ?>" >
-        <meta name="keywords" content="<?php echo $metas["about"]['keywords']; ?>" >
-        <?php   
+                            <title>
+                                <?php echo $metas["about"]['header']; ?>
+                            </title>
+                            <meta name="description" content="<?php echo $metas[" about "]['description']; ?>">
+                            <meta name="keywords" content="<?php echo $metas[" about "]['keywords']; ?>">
+                            <?php   
         }   
 
         else if($page=="/contact")
         {
             ?>
-           <title><?php echo $metas["contact"]['header']; ?></title>
-        <meta name="description" content="<?php echo $metas["contact"]['description']; ?>" >
-        <meta name="keywords" content="<?php echo $metas["contact"]['keywords']; ?>" >
-        <?php   
+                                <title>
+                                    <?php echo $metas["contact"]['header']; ?>
+                                </title>
+                                <meta name="description" content="<?php echo $metas[" contact "]['description']; ?>">
+                                <meta name="keywords" content="<?php echo $metas[" contact "]['keywords']; ?>">
+                                <?php   
         }   
 
         else 
         {
             ?>
-             <title><?php echo $metas['index']['header']; ?></title>
-            <meta name="description" content="<?php echo $metas['index']['description']; ?>" >
-            <meta name="keywords" content="<?php echo $metas['index']['keywords']; ?>" >
-        <?php   
+                                    <title>
+                                        <?php echo $metas['index']['header']; ?>
+                                    </title>
+                                    <meta name="description" content="<?php echo $metas['index']['description']; ?>">
+                                    <meta name="keywords" content="<?php echo $metas['index']['keywords']; ?>">
+                                    <?php   
         }   
     ?>
-    <link rel="icon" type="image/png" href="../images/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/intlTelInput.css">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                                        <link rel="icon" type="image/png" href="../images/favicon.png" />
+                                        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+                                        <link rel="stylesheet" type="text/css" href="css/intlTelInput.css">
+                                        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+                                        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+                                        <script>
+                                        (function(i, s, o, g, r, a, m) {
+                                            i['GoogleAnalyticsObject'] = r;
+                                            i[r] = i[r] || function() {
+                                                (i[r].q = i[r].q || []).push(arguments)
+                                            }, i[r].l = 1 * new Date();
+                                            a = s.createElement(o),
+                                                m = s.getElementsByTagName(o)[0];
+                                            a.async = 1;
+                                            a.src = g;
+                                            m.parentNode.insertBefore(a, m)
+                                        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-69242843-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-	<style>
-		/*.outer-sidemenu{
-			height: auto;
-			width: auto;
-			position: fixed;
-			background: black;
-			z-index: 9999;
-			top: 40%;
-			right: 0;
-			overflow:visible;
-			transition:all .4s;
-			
-		}
-		.sideMenu {
-			border: solid 1px yellow;
-			height: 50px;
-			margin: 10px 0 0 0;
-			width:50px;
-			transition:all .4s;
-		}*/
-		.sideMenu {
-			display:none;
-			width: 50px;
-			height: 50px;
-			position: fixed;
-			z-index: 9999;
-			top: 268px;
-			right: 0;
-		 	background: #df3e40;
-			background: -moz-linear-gradient(top, #df3e40 0%, #ac3761 100%);
-			background: -webkit-linear-gradient(top, #df3e40 0%,#ac3761 100%);
-			background: linear-gradient(to bottom, #df3e40 0%,#ac3761 100%);
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df3e40', endColorstr='#ac3761',GradientType=0 );
-			transition:all .4s;
-			overflow:hidden;
-			box-shadow:2px 2px 10px 0px rgba(0, 0, 0, 0.44);
-		}
-		.sideMenu2{top:328px;}
-		.sideMenu h6{ opacity:0; display: inline-block; font-family:lato; font-size:16px; color:white; margin: 14px 0 0 0; text-transform:uppercase;}
-		.sideMenu:hover{
-			width:200px;
-		}
-		.sideMenu:hover h6{opacity:1;}
-		img.icon-sidemenu { float: left; margin: 12px 0 0 12px;	}
-		
-		
-		
-		.intl-tel-input {
-			margin: 10px 0 0px 0;
-		}
-		input#country-code {
-			height: 50px;
-			width: 110px;
-		}
-	</style>
+                                        ga('create', 'UA-69242843-1', 'auto');
+                                        ga('send', 'pageview');
+                                        </script>
+                                        <style>
+                                        /*.outer-sidemenu{
+            height: auto;
+            width: auto;
+            position: fixed;
+            background: black;
+            z-index: 9999;
+            top: 40%;
+            right: 0;
+            overflow:visible;
+            transition:all .4s;
+            
+        }
+        .sideMenu {
+            border: solid 1px yellow;
+            height: 50px;
+            margin: 10px 0 0 0;
+            width:50px;
+            transition:all .4s;
+        }*/
+                                        
+                                        .sideMenu {
+                                            display: none;
+                                            width: 50px;
+                                            height: 50px;
+                                            position: fixed;
+                                            z-index: 9999;
+                                            top: 268px;
+                                            right: 0;
+                                            background: #df3e40;
+                                            background: -moz-linear-gradient(top, #df3e40 0%, #ac3761 100%);
+                                            background: -webkit-linear-gradient(top, #df3e40 0%, #ac3761 100%);
+                                            background: linear-gradient(to bottom, #df3e40 0%, #ac3761 100%);
+                                            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#df3e40', endColorstr='#ac3761', GradientType=0);
+                                            transition: all .4s;
+                                            overflow: hidden;
+                                            box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.44);
+                                        }
+                                        
+                                        .sideMenu2 {
+                                            top: 328px;
+                                        }
+                                        
+                                        .sideMenu h6 {
+                                            opacity: 0;
+                                            display: inline-block;
+                                            font-family: lato;
+                                            font-size: 16px;
+                                            color: white;
+                                            margin: 14px 0 0 0;
+                                            text-transform: uppercase;
+                                        }
+                                        
+                                        .sideMenu:hover {
+                                            width: 200px;
+                                        }
+                                        
+                                        .sideMenu:hover h6 {
+                                            opacity: 1;
+                                        }
+                                        
+                                        img.icon-sidemenu {
+                                            float: left;
+                                            margin: 12px 0 0 12px;
+                                        }
+                                        
+                                        .intl-tel-input {
+                                            margin: 10px 0 0px 0;
+                                        }
+                                        
+                                        input#country-code {
+                                            height: 50px;
+                                            width: 110px;
+                                        }
+                                        </style>
 </head>
 
 <body>
-    
     <header>
         <!-- Container start -->
         <div class="container container-nav">
@@ -237,8 +273,6 @@
                                 </li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right navbar-right2">
-                               
-                               
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -250,4 +284,3 @@
         </div>
         <!-- container  end -->
     </header>
-        
