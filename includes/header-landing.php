@@ -245,7 +245,7 @@
 
     
                                         </style>
-                                        }
+                                        
 </head>
 
 <body>

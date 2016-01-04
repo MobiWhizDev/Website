@@ -18,7 +18,7 @@
                                 <div class="form">
                                     <h5> Get <span class="red">FREE </span>Quote in 24 Hours!</h5>
                                     <br>
-                                    <form>
+                                    <form action="" method="post" id="contactform2" novalidate="novalidate">
                                         <input type="text" class="text-box" placeholder="Name" required>
                                         <input type="email" class="text-box" placeholder="Email" required>
                                         <input type="tel" name="phone1" id="country-code" class="phone form-control" placeholder="enter your phone" readonly>
@@ -335,4 +335,4 @@
             </div>
         </div>
     </section>
-    <?php include_once('../includes/footer.php'); ?>
+    <?php include_once('../includes/footer-nochat.php'); ?>
