@@ -23,11 +23,11 @@
                         <br>
                         <br>
                         <label for="exampleInputEmail1">NAME</label>
-                        <input type="text" name="name" id="fullname" class="form-control" id="exampleInputname" placeholder="enter your name" required>
+                        <input type="text" name="name" id="fullname" class="form-control"  placeholder="enter your name" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">EMAIL</label>
-                        <input type="email" name="email" id="email" class="form-control" id="exampleInputemail" placeholder="enter your email" required>
+                        <input type="email" name="email" id="email" class="form-control"  placeholder="enter your email" required>
                     </div>
                     <div class="form-group">
                         <div class="col-md-4">
@@ -162,23 +162,7 @@ var Tawk_API = Tawk_API || {},
     s0.parentNode.insertBefore(s1, s0);
 })();
 </script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<!-- Google Code for LeadConv Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 937585185;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "bXf1CPLPyGIQodSJvwM";
-var google_conversion_value = 10.00;
-var google_conversion_currency = "USD";
-var google_remarketing_only = false;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
+
 <noscript>
 <div style="display:inline;">
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/937585185/?value=10.00&amp;currency_code=USD&amp;label=bXf1CPLPyGIQodSJvwM&amp;guid=ON&amp;script=0"/>
