@@ -235,15 +235,15 @@
                                             width: 110px;
                                         }
                                          
-                                        #tawkchat-minified-wrapper{
-                                            display: none !important;
-                                        }
-                                        #tawkchat-minified-container {
-                                            display: none !important;
-                                        }
-                                            
+                                        .country-code-lp {
+											margin: 6px 0px 6px 77px !important;
+											width: 166px !important;
+											float: right;
+										}
+										.code-lp {
+											height: 43px !important;
+										}
 
-    
                                         </style>
                                         
 </head>
