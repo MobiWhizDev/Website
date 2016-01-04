@@ -1,5 +1,4 @@
 <?php include_once('../includes/header-landing.php'); ?>
-    
     <div class="about">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
@@ -31,8 +30,10 @@
                                             <option>Web Development</option>
                                         </select>
                                         <textarea placeholder="Enter brief description of your project"></textarea>
-                                        <button type="submit" class="btn btn-default landing-button">GET FREE QUOTE</button>
+                                        <button type="submit" id="comments" name="comments" class="btn btn-default landing-button">GET FREE QUOTE</button>
                                     </form>
+                                    <div id="dialog_submit" style="display: none;">Thank you for your inquiry. Your details have been forwarded to one of our app wizards who will get in touch with you shortly. Ph: +1-267-933-0030 |Email: info@mobiwhiz.com
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -290,12 +291,10 @@
                             </div>
                         </div>
                     </div>
-                    
-                </div>
                 </div>
             </div>
         </div>
-        
+    </div>
     </div>
     </div>
     <!--- Reviews2 End -->
