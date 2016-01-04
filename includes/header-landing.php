@@ -234,7 +234,18 @@
                                             height: 50px;
                                             width: 110px;
                                         }
+                                         
+                                        #tawkchat-minified-wrapper{
+                                            display: none !important;
+                                        }
+                                        #tawkchat-minified-container {
+                                            display: none !important;
+                                        }
+                                            
+
+    
                                         </style>
+                                        }
 </head>
 
 <body>
