@@ -19,10 +19,10 @@
                                     <h5> Get <span class="red">FREE </span>Quote in 24 Hours!</h5>
                                     <br>
                                     <form action="" method="post" id="contactform2" novalidate="novalidate">
-                                        <input type="text" class="text-box" placeholder="Name" required>
-                                        <input type="email" class="text-box" placeholder="Email" required>
-                                        <input type="tel" name="phone1" id="country-code" class="phone form-control" placeholder="enter your phone" readonly>
-                                        <input type="text" class="text-box country-code" placeholder="Phone" required>
+                                        <input type="text" name="name" id="fullname" class="text-box" placeholder="Name" required>
+                                        <input type="email" name="email" id="email" class="text-box" placeholder="Email" required>
+                                        <input type="tel" name="phone1" id="phone" class="phone form-control" placeholder="enter your phone" readonly>
+                                        <input type="text" name="phone2" id="phone2" class="text-box country-code" placeholder="Phone" required>
                                         <select id="qrytype1" name="query" class="text-box form-control" required>
                                             <option>Query Type</option>
                                             <option>IOS App Development</option>
