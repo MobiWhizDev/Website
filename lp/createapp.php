@@ -9,7 +9,7 @@
                         <div class="container">
                             <div class="col-md-8 landing-left">
                                 <h5>Create Your <span class="bold">iOS</span> and <span class="bold">Android Apps</span><br>
-                            with <span class="bold">USA Top Developers! <br>Now in Middle East</span></h5>
+                                    with <span class="bold">USA Top Developers! <br>Now in Middle East</span></h5>
                                 <br>
                                 <h6>We develop award winning apps for both startup and enterprises, we bring convenience and value for our customers.</h6>
                             </div>
