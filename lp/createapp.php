@@ -32,13 +32,16 @@
                                         <textarea placeholder="Enter brief description of your project"></textarea>
                                         <button type="submit" id="comments" name="comments" class="btn btn-default landing-button">GET FREE QUOTE</button>
                                     </form>
-                                    <div class="submit-message" id="dialog_submit" style="display: none;">Thank you for your inquiry. Your details have been forwarded to one of our app wizards who will get in touch with you shortly. Ph: +1-267-933-0030 |Email: info@mobiwhiz.com
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
+                <div class="submit-message" id="dialog_submit" style="display: none;">Thank you for your inquiry. Your details have been forwarded to one of our app wizards who will get in touch with you shortly. Ph: +1-267-933-0030 |Email: info@mobiwhiz.com
+                </div>
+                
             </div>
         </div>
         <!-- Section Services Start -->

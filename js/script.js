@@ -44,7 +44,7 @@ function formSubmit(form) {
         var google_remarketing_only = false;
         /* ]]> */
 
-        t = $.trim(t), $("#dialog_submit").html("-1" == t || "" == t ? "Error while connecting to server" : "Your message has been successfully submitted!"), $("#modaltrigger").click();
+        t = $.trim(t), $("#dialog_submit").html("-1" == t || "" == t ? "Error while connecting to server" : "Thank you for your inquiry. Your details have been forwarded to one of our app wizards who will get in touch with you shortly. Ph: +1-267-933-0030 |Email: info@mobiwhiz.com"), $("#modaltrigger").click();
 
         return false;
     }), !1
