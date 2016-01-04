@@ -2681,6 +2681,7 @@ footer h3 {
     border-radius: 6px;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+	text-shadow:none !important;
     text-align: center
 }
 
